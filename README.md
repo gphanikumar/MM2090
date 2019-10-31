@@ -18,5 +18,7 @@ Files will be named using two digits and a character before each section name. T
 
 Source files made using LibreOffice Writer or Impress are here along with their PDF exports. Same case with Jupyter notebooks.
 
+Look at the [resources](resources.md) page for useful links.
+
 -Gandham Phanikumar
 https://mme.iitm.ac.in/gphani/
