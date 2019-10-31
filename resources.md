@@ -19,7 +19,7 @@
 ### GNU Octave
 * [Octave](https://www.gnu.org/software/octave/)
 * [Octave Forge](https://octave.sourceforge.io/)
-* [MIT open courseware from Prof. Iam Hutchinson](https://ocw.mit.edu/courses/nuclear-engineering/22-15-essential-numerical-methods-fall-2014/tutorial-videos/octave-matlabae-for-beginners-part-1-starting-from-scratch/)
+* [MIT open courseware from Prof. Ian Hutchinson](https://ocw.mit.edu/courses/nuclear-engineering/22-15-essential-numerical-methods-fall-2014/tutorial-videos/octave-matlabae-for-beginners-part-1-starting-from-scratch/)
 
 ## Links to tools
 * [VMWare workstation player](https://www.vmware.com/products/workstation-player.html)
