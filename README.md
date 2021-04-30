@@ -9,7 +9,10 @@ This repository contains sessions on the following sections:
 ## Ubuntu Linux commands (Ubuntu) 
  * [Session-0](lessons/Session0.md) Getting access to linux environment
  * [Session-1](lessons/Session1.md) Getting to know your machine and account
- * [Session-2](lessons/Session2.md) Getting to know your OS commands, admin privileges, Shell and filesystem
+ * [Session-2a](lessons/Session2a.md) Your OS details
+ * [Session-2b](lessons/Session2b.md) Using your admin privileges to manage packages
+ * [Session-2c](lessons/Session2c.md) Shell environment
+ * [Session-2d](lessons/Session2d.md) File system
  * [Session-3](lessons/Session3.md) Finding your way around the linux filesystem, important directories
 
 ## Shell scripts (Shell)
