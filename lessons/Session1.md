@@ -28,16 +28,32 @@ To search for which package a particular executable came from:
 
 ## Hardware of the machine
 
-This module is to let you know about the following peices of hardware
-you have in your machine: CPU, Memory, Hard Disks, Graphics Card,
-Monitor Network Cards
+This section is to let you know about the following peices of hardware you have in your machine: CPU, Memory, Hard Disks, Graphics Card, Monitor Network Cards
+
+### hwinfo
+This tool is from the package **hwinfo**. This command gives a long and comprehensive listing of hardware.
 
     /usr/sbin/hwinfo 
 
-Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. Package: **hwinfo** 
+You can redirect the output to a file in your home directory and read it. Use arrow keys to scroll up and down. Press q to quit reading the file. You can do this to look at the output of other commands too.
 
-| /usr/bin/lshw | Redirect the output to a file and read it. This is a brief listing of hardware. | **lshw** |
-| /bin/cat /proc/cpuinfo | Explore what cpu you have, how many cores, speed, cache memory etc., | |
+    cd
+
+    hwinfo > hwinfo.txt
+
+    less hwinfo.txt
+
+### lshw
+This tool is from the package **lshw**. This tool provides a brief listing of hardware.
+
+     /usr/bin/lshw
+
+
+### /proc/cpuinfo
+You can read the contents of this virtual file and explore what cpu you have, how many cores, speed, cache memory etc.
+
+     /bin/cat /proc/cpuinfo 
+
 | /usr/bin/sudo /sbin/fdisk -l  | Use with care. One can use fdisk to edit partitions, format etc., so be careful with this command. | **fdisk** | 
 | /bin/cat /proc/partitions  | List the partitions mounted. Use the command **mount **or** df** to see similar information. | |
 | /bin/lsblk -o NAME,SIZE | Figure out the device and the partitions being used for storage in your machine. | |
