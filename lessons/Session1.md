@@ -139,29 +139,21 @@ This tool comes from the package **fdisk**. Use with care as you will be running
 |                                   | Package: **sysstat**              |
 +-----------------------------------+-----------------------------------+
 
-Configurations:
+## Configurations
 
-+----------------+-------------------------------------+
-| /sbin/ifconfig | Configuration of network interface. |
-|                |                                     |
-|                | Package: **net-tools**              |
-+----------------+-------------------------------------+
+### ifconfig 
+This tool comes from the package **net-tools**. The output is about the configuration of network interfaces in your computer.
 
-Home work:
+      /sbin/ifconfig
 
-\[1\] Make a listing of the hard ware components you have in your
-laptop.
+## Home work:
 
-\[2\] Look up internet and identify other variants or models of each of
-the hardware components. Critically compare the specs with the ones you
-have in your machine in a tabular fashion.
+1. Make a listing of the hard ware components you have in your laptop.
 
-\[3\] List the CPU and GPU capabilities of your machine in GigaFlops as
-per theoretical or vendor provided specs. You don't have to do any
-benchmarking yourself for this information.
+2. Look up internet and identify other variants or models of each of the hardware components. Critically compare the specs with the ones you have in your machine in a tabular fashion.
 
-\[4\] Count the number of packages installed on your OS.
+3. List the CPU and GPU capabilities of your machine in GigaFlops as per theoretical or vendor provided specs. You don't have to do any benchmarking yourself for this information.
 
-\[5\] Find out the difference in the IP configuration of your machine
-when you connect your laptop using wired LAN in the hostel room and over
-WiFi using IITMWiFi.
+4. Count the number of packages installed on your OS.
+
+5. Find out the difference in the IP configuration of your machine when you connect your laptop using wired LAN in the hostel room and over WiFi using IITMWiFi.
