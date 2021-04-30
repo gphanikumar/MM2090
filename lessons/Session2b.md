@@ -1,6 +1,5 @@
 # Using your admin privileges to manage packages
 
-
 Often the user is expected to install packages to get a certain software
 up and running in the machine. Following commands help you get around
 this task.
@@ -33,28 +32,25 @@ Remove packages that are not needed by any installed software, to save disc spac
 
  /usr/bin/sudo /usr/bin/apt-get autoremove
 
+### apt-get install
+Install a package to add a new functionality to the system.
 
+    /usr/bin/sudo /usr/bin/apt-get install \<package-name\> 
 
-                |
-+-----------------------------------+-----------------------------------+
-| /usr/bin/sudo /usr/bin/apt-get    | Install a package to add a new    |
-| install \<package-name\>          | functionality to the system       |
+### dpkg
+Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
 
-+-----------------------------------+-----------------------------------+
-| /usr/bin/dpkg -S \<command\>      | Look for the name of the command  |
-|                                   | in the packages installed on the  |
-|                                   | machine -- often to locate it in  |
-|                                   | the filesystem.                   |
-|                                   |                                   |
-|                                   | Package: **dpkg**                 |
-+-----------------------------------+-----------------------------------+
+     /usr/bin/dpkg -S \<command\> 
 
-| /usr/bin/apt-file find \<file\>   | Same as above                     |
+### apt-file find
+Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
 
-+-----------------------------------+-----------------------------------+
-| /usr/bin/apt-file list            | Similar to above                  |
-| \<package\>                       |                                   |
-+-----------------------------------+-----------------------------------+
+       /usr/bin/apt-file find \<file\>  
+
+### apt-file list
+List all the files that are provided by a package. Similar to above.
+
+       /usr/bin/apt-file list \<package\> 
 
 ## Homework
 
