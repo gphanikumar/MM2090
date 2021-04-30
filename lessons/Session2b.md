@@ -35,22 +35,22 @@ Remove packages that are not needed by any installed software, to save disc spac
 ### apt-get install
 Install a package to add a new functionality to the system.
 
-    /usr/bin/sudo /usr/bin/apt-get install \<package-name\> 
+    /usr/bin/sudo /usr/bin/apt-get install <package-name> 
 
 ### dpkg
 Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
 
-     /usr/bin/dpkg -S \<command\> 
+     /usr/bin/dpkg -S <command> 
 
 ### apt-file find
 Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
 
-       /usr/bin/apt-file find \<file\>  
+       /usr/bin/apt-file find <file>  
 
 ### apt-file list
 List all the files that are provided by a package. Similar to above.
 
-       /usr/bin/apt-file list \<package\> 
+       /usr/bin/apt-file list <package> 
 
 ## Homework
 
