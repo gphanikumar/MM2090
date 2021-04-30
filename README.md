@@ -8,7 +8,9 @@ Browse the folder for notes, presentations, example scripts and notebooks to hel
 This repository contains sessions on the following sections:
 ## Ubuntu Linux commands (Ubuntu) 
  * [Session-0](lessons/Session0.md) Getting access to linux environment
- * [Session-1](lessons/Session1.md) Getting to know your system
+ * [Session-1](lessons/Session1.md) Getting to know your machine and account
+ * [Session-2](lessons/Session2.md) Getting to know your OS commands, admin privileges, Shell and filesystem
+ * [Session-3](lessons/Session3.md) Finding your way around the linux filesystem, important directories
 
 ## Shell scripts (Shell)
 
