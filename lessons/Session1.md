@@ -20,7 +20,7 @@ Monitor Network Cards
 
 | command | description | Package |
 | ------- | ---------- | ------- |
-| /usr/sbin/hwinfo | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. | **hwinfo** |
+| <blink>/usr/sbin/hwinfo</blink> | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. | **hwinfo** |
 | /usr/bin/lshw | Redirect the output to a file and read it. This is a brief listing of hardware. | **lshw** |
 | /bin/cat /proc/cpuinfo | Explore what cpu you have, how many cores, speed, cache memory etc., | |
 | /usr/bin/sudo /sbin/fdisk -l  | Use with care. One can use fdisk to edit partitions, format etc., so be careful with this command. | **fdisk** | 
