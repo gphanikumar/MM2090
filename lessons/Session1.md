@@ -98,65 +98,46 @@ The program **free** comes from the package **procps**. Use with option -h for h
       /usr/bin/free -h
 
 
-| /usr/bin/sudo /usr/sbin/dmidecode | Explore what type of memory you   |
-| \--type memory                    | have, of what speed etc., Explore |
-|                                   | what other types of hardware this |
-|                                   | command can give you details      |
-|                                   | about. Redirect the output to a   |
-|                                   | file and read it.                 |
-|                                   |                                   |
-|                                   | Package: **dmidecode**            |
-+-----------------------------------+-----------------------------------+
+### dmidecode
+The program **dmidecode** comes from the package **dmidecode**. Explore what type of memory you have, of what speed etc., Explore what other types of hardware this command can give you details about. Redirect the output to a file and read it.                 
 
-| /usr/sbin/memtester 24M 2         | Install this from the package     |
-|                                   | "memtester". Check for any errors |
-|                                   | in your memory. In the command    |
-|                                   | given, 24MB of data and 2         |
-|                                   | iterations are being used to make |
-|                                   | this test.                        |
-|                                   |                                   |
-|                                   | Package: **memtester**            |
-+-----------------------------------+-----------------------------------+
+     /usr/bin/sudo /usr/sbin/dmidecode --type memory                    
 
-| /usr/bin/hardinfo                 | Install package "hardinfo" to get |
-|                                   | this tool which has a graphical   |
-|                                   | user interface and can export a   |
-|                                   | report of your hardware.          |
-|                                   |                                   |
-|                                   | Package: **hardinfo**             |
-+-----------------------------------+-----------------------------------+
+### memtester
+The program **memtester** comes from the package **memtester**. Check for any errors in your memory. In the command given, 24MB of data and 2 iterations are being used to make this test.                        
 
-| /usr/bin/upower                   | Run with -e option to see which   |
-|                                   | option to be used for \<battery\> |
-|                                   | (the one containing the string    |
-|                                   | BAT). Run "upower -i \<battery\>" |
-|                                   | to see the status of your         |
-|                                   | battery.                          |
-|                                   |                                   |
-|                                   | Package: **upower**               |
-+-----------------------------------+-----------------------------------+
+     /usr/sbin/memtester 24M 2         
 
-| /usr/bin/lscpu                    | List CPU information of the       |
-|                                   | machine.                          |
-|                                   |                                   |
-|                                   | Package: **util-linux**           |
-+-----------------------------------+-----------------------------------+
+### hardinfo
+The program **hardinfo** comes from the package **hardinfo**. This tool has a graphical user interface and can export a report of your hardware.          
 
-| /usr/bin/sudo /usr/bin/clinfo     | See the capabilities of CPU and   |
-|                                   | GPU to run OpenCL codes.          |
-|                                   |                                   |
-|                                   | Package: **clinfo**               |
-+-----------------------------------+-----------------------------------+
+ /usr/bin/hardinfo                  
 
-| /sbin/hdparm -Tt /dev/sda         | get/set IDE SATA parameters       |
-|                                   |                                   |
+### upower
+The tool **upower** comes from the package **upower**. Run with -e option to see which option to be used for \<battery\> (the one containing the string BAT). Run "upower -i \<battery\>" to see the status of your battery.                          
+     /usr/bin/upower -e
+     /usr/bin/upower -i <battery>
 
-| /sbin/hdparm -v /dev/sda          | Package: **hdparm**               |
-+-----------------------------------+-----------------------------------+
+### lscpu
+The tool **lscpu** comes from the package **lscpu**. List CPU information of the machine.
 
-| /usr/bin/iostat -dx /dev/sda      | Report CPU and I/O statistics.    |
-|                                   |                                   |
-|                                   | Package: **sysstat**              |
+      /usr/bin/lscpu 
+
+### clinfo
+The tool **clinfo** comes from the package **clinfo**. See the capabilities of CPU and GPU to run OpenCL codes. The output will not be much if you do not have a good enough GPU in your machine.
+
+      /usr/bin/sudo /usr/bin/clinfo 
+
+### hdparm
+The tool **hdparm** comes from the package **hdparm**.  You can use it to get/set the IDE SATA parameters. Do not set any parameter before you learn what that does to your system. In the following example, we are assuming /dev/sda as your hard disk. You can replace it with the name of the storage device as you see in the output of **df** command in your system.
+
+     /sbin/hdparm -Tt /dev/sda
+     /sbin/hdparm -v /dev/sda
+
+### iostat
+The program **iostat** comes from the package **sysstat**. This tool is to report CPU and I/O statistics. In the example below we are assuming that /dev/sda is the storage device in your machine. Change it to what you see in the output of **df** command in your system.
+
+     /usr/bin/iostat -dx /dev/sda
 
 ## Configurations
 
