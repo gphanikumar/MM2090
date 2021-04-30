@@ -1,6 +1,4 @@
-Lesson -- 1 : Getting to know your machine and account
-
-April-June-2021 semester
+# Getting to know your machine and account
 
 Packages needed for this session:
 
@@ -17,19 +15,14 @@ To search for which package a particular executable came from:
 
 /usr/bin/apt-file search \<executable\>
 
-1\. Hardware of the machine
+## Hardware of the machine
 
 This module is to let you know about the following peices of hardware
 you have in your machine: CPU, Memory, Hard Disks, Graphics Card,
 Monitor Network Cards
 
-+-----------------------------------+-----------------------------------+
-| /usr/sbin/hwinfo                  | Redirect the output to a file and |
-|                                   | read it. This is a long and       |
-|                                   | comprehensive listing of          |
-|                                   | hardware.                         |
-|                                   |                                   |
-|                                   | Package: **hwinfo**               |
+| /usr/sbin/hwinfo | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. Package: **hwinfo** |
+
 +-----------------------------------+-----------------------------------+
 | /usr/bin/lshw                     | Redirect the output to a file and |
 |                                   | read it. This is a brief listing  |
