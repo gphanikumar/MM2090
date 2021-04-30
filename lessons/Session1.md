@@ -18,11 +18,13 @@ Packages needed for this session:
 
 Use "sudo apt-get install \<package\>" to install the above packages.
 
-To search for which package a particular executable came from:
+To search for which package a particular executable, say, hwinfo came from:
 
     /usr/bin/sudo apt-get install apt-file
     /usr/bin/sudo apt-file update
-    /usr/bin/apt-file search \<executable\>
+    /usr/bin/apt-file search hwinfo
+
+This works only if you have already installed the package. If you want to find which package to install to have a particular executable, you need to search the internet with appropriate keywords.
 
 ## Hardware of the machine
 
@@ -50,12 +52,28 @@ You can read the contents of this virtual file and explore what cpu you have, ho
 
      /bin/cat /proc/cpuinfo 
 
-| /usr/bin/sudo /sbin/fdisk -l  | Use with care. One can use fdisk to edit partitions, format etc., so be careful with this command. | **fdisk** | 
-| /bin/cat /proc/partitions  | List the partitions mounted. Use the command **mount **or** df** to see similar information. | |
+### /proc/partitions
+List the partitions mounted. Use the command **mount **or** df** to see similar information.
+
+      /bin/cat /proc/partitions
+
+### df
+This tool comes from the package **coreutils**. Explore other options of df to display the details on filesystems mounted.
+
+      /bin/df -h 
+
+### fdisk
+This tool comes from the package **fdisk**. Use with care as you will be running it as a super user. One may accidentally cause an edit to the partitions, format etc., so be careful with this command. 
+
+      /usr/bin/sudo /sbin/fdisk -l 
+
 | /bin/lsblk -o NAME,SIZE | Figure out the device and the partitions being used for storage in your machine. | |
+
 | /usr/bin/lspci | Explore what hardware components are associated with the PCI bus. | **pciutils** | 
+
 | /usr/bin/top | Press q to quit. Watch the listing of processes while you open other applications and close them. Explore the meaning of numbers shown in the header of the screen. |  **procps** |
-| /bin/df -h | Explore other options of df to display the details on filesystems mounted. | **coreutils** |
+
+
 | /usr/bin/lshw -c display | Explore other sections under which lshw gives the output. | **lshw** |
 | /bin/dmesg | Redirect the output to a file and read it. | **util-linux** |
 
