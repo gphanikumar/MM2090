@@ -1,34 +1,80 @@
 # Shell environment
 
+### type
+For any command you are using, you can find out if it is a feature of the shell or from the OS.
 
-  type \<command name\>                           For any command you are using, you can find out if it is a feature of the shell or from the OS.
-  help                                            Find out what features are available within the shell itself. Run help with a keywork to know more about each of these features. Eg., "help set" tells you about the shell command "set".
+      type <command name>
 
-  /usr/bin/which                                  You should know which location the command is being run from. It is necessary that the location should be listed in your \$PATH variable.
+### help
+Find out what features are available within the shell itself. Run help with a keywork to know more about each of these features. Eg., "help set" tells you about the shell command "set".
 
-  /usr/bin/apropos                                If you can't think of the command name but want to see a list of commands available that are related to a keyword. Read the manual page on any of these commands to know more. **Discover new commands this way.**
+      help 
 
-  /usr/bin/man                                    Manual pages for the command you want. Sometimes there are different sections for the same command, pick any to know more about the command.
+### which
+You should know which location the command is being run from. It is necessary that the location should be listed in your \$PATH variable.
 
-  /usr/bin/info                                   A structured way to learn about the commands available in the system.
+      /usr/bin/which <command name>
 
-  echo \$PATH                                     The path variable lists ";" separated directories where the command will be searched for before executing. Some software are installed in non-standard locations and so we need to ensure that the location is added to the path.
+### apropos
+If you can't think of the command name but want to see a list of commands available that are related to a keyword, you can use apropos. Read the manual page on any of these commands to know more. You can discover new commands this way.
 
-  The prompts: \$PS1 and \$PS2                    Command prompts. The strings used to know which context the shell is currently in.
+       /usr/bin/apropos <keyword>
 
-  \$USER                                          Name of the currently logged in user.
+### man
+Manual pages for the command you want. Sometimes there are different sections for the same command, pick any to know more about the command.
 
-  \$HOME                                          Home directory of the currently logged in user. Tilda character is an alias for this.
+      /usr/bin/man <command name>
 
+### info
+A structured way to learn about the commands available in the system.
+
+      /usr/bin/info 
+
+### PATH variable
+The path variable lists ";" separated directories where the command will be searched for before executing. Some software are installed in non-standard locations and so we need to ensure that the location is added to the path.
+
+      echo $PATH 
+
+### Command prompts
+The default string used for prompting for user input in the shell is given in the shell variable PS1. While typing a command, if you do not close a quote and press enter, the continuation prompt will be presented. This second prompt string is given in the shell variable PS2. See how these are stored using the echo fearure.
+
+      echo $PS1
+      echo $PS2
+
+
+### USER variable
+Name of the currently logged in user is stored in the shell variable USER.
+      echo $USER
+
+### HOME variable
+Home directory of the currently logged in user. Tilda character is an alias for this.
+
+### Shell environment
   Environment : /etc/profile and \$HOME/.bashrc   Everytime a shell is opened, commands in these files are executed to prepare the command line environment for the user.
 
-  source \<filename\>                             If there is a file with a list of commands, run "source" command to execute them.
+### source
+The source command reads all the commands from the filename provided and executes them. If there is a file with a list of commands, run "source" command to execute them.
 
-  printenv                                        List all the variables defined in the current commandline environment.
+      source <filename> 
 
-  set                                             To define and set values to variables.
+### printenv
+The command printenv lists all the variables defined in the current commandline environment.
 
-  alias                                           To define aliases. One can also unalias. Often the default options on dangerous commands (such as rm, mv, cp) are aliased to ask for confirmation (using -i option) so that one does not lose files.
+      printenv 
+
+### set 
+You can use the set command to create a shell variable with a value. These variables are available only in the current shell and not in the shells spawned further or in another shell that is run separately.
+
+     set VARIABLE="value"
+  
+
+### alias
+To define aliases so that you can use a nickname for a command with the options you regularly use. One can also use unalias on the nickname to remove the alias. Often the default options on dangerous commands (such as rm, mv, cp) are aliased to ask for confirmation (using -i option) so that one does not lose files.
+
+     alias NICKNAME="command"
+     alias rm="rm -i"
+     alias mv="mv -i"
+     alias cp="cp -i"
 
 Files used during opening of shell:
 
