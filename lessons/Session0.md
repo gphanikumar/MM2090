@@ -1,14 +1,12 @@
-Lesson -- 0 : Getting access to a machine
-
-April-June-2021 semester
+# Getting access to a machine
 
 You need to have regular access to a computer preferably with Ubuntu
 20.04 LTS (focal) operating system installed on it. Here are different
 possibilities.
 
-1.  If you have a laptop with Ubuntu or anyother flavor of Linux on it,
+1. If you have a laptop with Ubuntu or anyother flavor of Linux on it,
     you are ready to go.
-2.  If you have a Macbook, you don't have to make any change. Most of
+2. If you have a Macbook, you don't have to make any change. Most of
     the linux commands have their equivalents in MacOS too. Obtain a
     mapping of the commands with help of internet and the teaching
     assistants and keep that handy. Make yourself comfortable with the
@@ -32,9 +30,6 @@ possibilities.
     that machine and try your stuff.
 7.  If you do not possess a laptop and are also unable to borrow it from
     a friend for this course, please consider taking one for hire.
-8.  If you do not have any access to a laptop and your finances do not
-    permit renting either, please reach me discretely. I will try and
-    get you help.
 
 Hands on experience is a must to learn the course contents. Please
 invest your time and efforts to get the practical experience. It will
