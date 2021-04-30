@@ -21,9 +21,7 @@ Use "sudo apt-get install \<package\>" to install the above packages.
 To search for which package a particular executable came from:
 
     /usr/bin/sudo apt-get install apt-file
-
     /usr/bin/sudo apt-file update
-
     /usr/bin/apt-file search \<executable\>
 
 ## Hardware of the machine
@@ -38,9 +36,7 @@ This tool is from the package **hwinfo**. This command gives a long and comprehe
 You can redirect the output to a file in your home directory and read it. Use arrow keys to scroll up and down. Press q to quit reading the file. You can do this to look at the output of other commands too.
 
     cd
-
     hwinfo > hwinfo.txt
-
     less hwinfo.txt
 
 ### lshw
