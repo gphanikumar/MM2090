@@ -30,7 +30,7 @@ Install the updates to bring the OS of the machine to the latest available.
 ### apt-get autoremove
 Remove packages that are not needed by any installed software, to save disc space.  
 
- /usr/bin/sudo /usr/bin/apt-get autoremove
+     /usr/bin/sudo /usr/bin/apt-get autoremove
 
 ### apt-get install
 Install a package to add a new functionality to the system.
