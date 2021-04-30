@@ -9,11 +9,11 @@ Use "sudo apt-get install \<package\>" to install the above packages.
 
 To search for which package a particular executable came from:
 
-/usr/bin/sudo apt-get install apt-file
+    /usr/bin/sudo apt-get install apt-file
 
-/usr/bin/sudo apt-file update
+    /usr/bin/sudo apt-file update
 
-/usr/bin/apt-file search \<executable\>
+    /usr/bin/apt-file search \<executable\>
 
 ## Hardware of the machine
 
@@ -21,6 +21,8 @@ This module is to let you know about the following peices of hardware
 you have in your machine: CPU, Memory, Hard Disks, Graphics Card,
 Monitor Network Cards
 
+| command | description |
+| ------- | ---------- |
 | /usr/sbin/hwinfo | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. Package: **hwinfo** |
 
 +-----------------------------------+-----------------------------------+
