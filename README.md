@@ -6,7 +6,7 @@ A course for first year students at IIT Madras.
 Browse the folder for notes, presentations, example scripts and notebooks to help you learn the basic concepts behind scientific computing. If you wish to contribute by editing or adding content, please feel free to drop pull request.
 
 This repository contains sessions on the following sections:
-* Ubuntu Linux commands (Ubuntu): (Session0.md)[Session0.md]
+* Ubuntu Linux commands (Ubuntu): [Session0.md](Session0.md)
 * Shell scripts (Shell)
 * Python using Jupyter Notebook (Python)
 * SageMath using Jupyter Notebook (Sage)
