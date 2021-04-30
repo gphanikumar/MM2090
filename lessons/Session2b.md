@@ -38,12 +38,12 @@ Install a package to add a new functionality to the system.
     /usr/bin/sudo /usr/bin/apt-get install <package-name> 
 
 ### dpkg
-Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
+Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem. 
 
      /usr/bin/dpkg -S <command> 
 
 ### apt-file find
-Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.                   |
+Look for the name of the command in the packages installed on the machine -- often to locate it in the filesystem.
 
        /usr/bin/apt-file find <file>  
 
@@ -54,7 +54,7 @@ List all the files that are provided by a package. Similar to above.
 
 ## Homework
 
-1. Install packages to add the following commands to your system and explore what they do: fortune, octave, pdftk, unison, wget, curl, gftp, xfig, vlc
-2. Packages come as groups too. Explore the GUI feature for Ubuntu Software to see what those groups are -- in the topics under categories like "Productivity", "Education and Science".
+1. Install packages to add the following commands to your system and explore what they do: fortune, octave, pdftk, unison, wget, curl, gftp, xfig and vlc.
+2. Packages come as groups too. Explore the GUI feature for Ubuntu Software to see what those groups are in the topics under categories like "Productivity", "Education and Science".
 3. Try and get the entire TeX document preparation software toolset installed on your machine.
 
