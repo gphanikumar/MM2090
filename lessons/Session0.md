@@ -1,4 +1,4 @@
-# Getting access to a machine
+# Getting access to linux environment
 
 The preferred operating system for this course is [Ubuntu 20.04 LTS (focal)](https://ubuntu.com/download/desktop)
 
