@@ -1,6 +1,20 @@
 # Getting to know your machine and account
 
-Packages needed for this session: *hwinfo, lshw, fdisk, memtester, hardinfo, util-linux, clinfo, net-tools, coreutils, procps, pciutils, dmidecode, lsb-release, hdparm *
+Packages needed for this session: 
+  * [hwinfo](https://packages.ubuntu.com/focal/hwinfo)
+  * [lshw](https://packages.ubuntu.com/focal/lshw)
+  * [fdisk](https://packages.ubuntu.com/focal/fdisk)
+  * [memtester](https://packages.ubuntu.com/focal/memtester)
+  * [hardinfo](https://packages.ubuntu.com/focal/hardinfo)
+  * [util-linux](https://packages.ubuntu.com/focal/util-linux)
+  * [clinfo](https://packages.ubuntu.com/focal/clinfo)
+  * [net-tools](https://packages.ubuntu.com/focal/net-tools)
+  * [coreutils](https://packages.ubuntu.com/focal/coreutils)
+  * [procps](https://packages.ubuntu.com/focal/procps)
+  * [pciutils](https://packages.ubuntu.com/focal/pciutils)
+  * [dmidecode](https://packages.ubuntu.com/focal/dmidecode)
+  * [lsb-release](https://packages.ubuntu.com/focal/lsb-release)
+  * [hdparm](https://packages.ubuntu.com/focal/hdparm)
 
 Use "sudo apt-get install \<package\>" to install the above packages.
 
