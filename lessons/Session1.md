@@ -1,6 +1,6 @@
 # Getting to know your machine and account
 
-Packages needed for this session: **hwinfo, lshw, fdisk, memtester, hardinfo, util-linux, clinfo, net-tools, coreutils, procps, pciutils, dmidecode, lsb-release, hdparm **
+Packages needed for this session: *hwinfo, lshw, fdisk, memtester, hardinfo, util-linux, clinfo, net-tools, coreutils, procps, pciutils, dmidecode, lsb-release, hdparm *
 
 Use "sudo apt-get install \<package\>" to install the above packages.
 
@@ -18,19 +18,19 @@ This module is to let you know about the following peices of hardware
 you have in your machine: CPU, Memory, Hard Disks, Graphics Card,
 Monitor Network Cards
 
-| command | description |
-| ------- | ---------- |
-| /usr/sbin/hwinfo | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. Package: **hwinfo** |
-| /usr/bin/lshw | Redirect the output to a file and read it. This is a brief listing of hardware. Package: **lshw** |
-| /bin/cat /proc/cpuinfo | Explore what cpu you have, how many cores, speed, cache memory etc., |
-| /usr/bin/sudo /sbin/fdisk -l  | Use with care. One can use fdisk to edit partitions, format etc., so be careful with this command. Package: **fdisk** | 
-| /bin/cat /proc/partitions  | List the partitions mounted. Use the command **mount **or** df** to see similar information. |
-| /bin/lsblk -o NAME,SIZE | Figure out the device and the partitions being used for storage in your machine. |
-| /usr/bin/lspci | Explore what hardware components are associated with the PCI bus. Package: **pciutils** | 
-| /usr/bin/top | Press q to quit. Watch the listing of processes while you open other applications and close them. Explore the meaning of numbers shown in the header of the screen. Package: **procps** |
-| /bin/df -h | Explore other options of df to display the details on filesystems mounted. Package: **coreutils** |
-| /usr/bin/lshw -c display | Explore other sections under which lshw gives the output. Package: **lshw** |
-| /bin/dmesg | Redirect the output to a file and read it. Package: **util-linux** |
+| command | description | Package |
+| ------- | ---------- | ------- |
+| /usr/sbin/hwinfo | Redirect the output to a file and read it. This is a long and comprehensive listing of hardware. | **hwinfo** |
+| /usr/bin/lshw | Redirect the output to a file and read it. This is a brief listing of hardware. | **lshw** |
+| /bin/cat /proc/cpuinfo | Explore what cpu you have, how many cores, speed, cache memory etc., | |
+| /usr/bin/sudo /sbin/fdisk -l  | Use with care. One can use fdisk to edit partitions, format etc., so be careful with this command. | **fdisk** | 
+| /bin/cat /proc/partitions  | List the partitions mounted. Use the command **mount **or** df** to see similar information. | |
+| /bin/lsblk -o NAME,SIZE | Figure out the device and the partitions being used for storage in your machine. | |
+| /usr/bin/lspci | Explore what hardware components are associated with the PCI bus. | **pciutils** | 
+| /usr/bin/top | Press q to quit. Watch the listing of processes while you open other applications and close them. Explore the meaning of numbers shown in the header of the screen. |  **procps** |
+| /bin/df -h | Explore other options of df to display the details on filesystems mounted. | **coreutils** |
+| /usr/bin/lshw -c display | Explore other sections under which lshw gives the output. | **lshw** |
+| /bin/dmesg | Redirect the output to a file and read it. | **util-linux** |
 
 ## Further exploration
 
