@@ -31,7 +31,7 @@ This works only if you have already installed the package. If you want to find w
 This section is to let you know about the following peices of hardware you have in your machine: CPU, Memory, Hard Disks, Graphics Card, Monitor Network Cards
 
 ### hwinfo
-This tool is from the package **hwinfo**. This command gives a long and comprehensive listing of hardware.
+The program **hwinfo** comes from the package **hwinfo**. This command gives a long and comprehensive listing of hardware.
 
     /usr/sbin/hwinfo 
 
@@ -42,7 +42,7 @@ You can redirect the output to a file in your home directory and read it. Use ar
     less hwinfo.txt
 
 ### lshw
-This tool is from the package **lshw**. This tool provides a brief listing of hardware.
+The program **lshw** comes from the package **lshw**. This tool provides a brief listing of hardware.
 
      /usr/bin/lshw
 
@@ -58,34 +58,46 @@ List the partitions mounted. Use the command **mount **or** df** to see similar 
       /bin/cat /proc/partitions
 
 ### df
-This tool comes from the package **coreutils**. Explore other options of df to display the details on filesystems mounted.
+The program **df** comes from the package **coreutils**. Explore other options of df to display the details on filesystems mounted.
 
       /bin/df -h 
 
 ### fdisk
-This tool comes from the package **fdisk**. Use with care as you will be running it as a super user. One may accidentally cause an edit to the partitions, format etc., so be careful with this command. 
+The program **fdisk** comes from the package **fdisk**. Use with care as you will be running it as a super user. One may accidentally cause an edit to the partitions, format etc., so be careful with this command. 
 
       /usr/bin/sudo /sbin/fdisk -l 
 
-| /bin/lsblk -o NAME,SIZE | Figure out the device and the partitions being used for storage in your machine. | |
+### lsblk
+Figure out the device and the partitions being used for storage in your machine.
 
-| /usr/bin/lspci | Explore what hardware components are associated with the PCI bus. | **pciutils** | 
+     /bin/lsblk -o NAME,SIZE
 
-| /usr/bin/top | Press q to quit. Watch the listing of processes while you open other applications and close them. Explore the meaning of numbers shown in the header of the screen. |  **procps** |
+### lspci
+The program **lspci** comes from the package **pciutils**. Explore what hardware components are associated with the PCI bus. 
+
+     /usr/bin/lspci 
+
+### top
+The program **top** comes from the package **procps**. Press q to quit the display. Watch the listing of processes while you open other applications and close them. Explore the meaning of numbers shown in the header of the screen.
+
+    /usr/bin/top 
+
+### lshw
+The program **lshw** comes from the package **lshw**. Explore other sections under which lshw gives the output.
+
+     /usr/bin/lshw -c display
+
+### dmesg
+The program **dmesg** comes from the package **util-linux**. It outputs the system log from the booting onward.
+
+    /bin/dmesg
+
+### free
+The program **free** comes from the package **procps**. Use with option -h for human readable format of free and used memory. 
+
+      /usr/bin/free -h
 
 
-| /usr/bin/lshw -c display | Explore other sections under which lshw gives the output. | **lshw** |
-| /bin/dmesg | Redirect the output to a file and read it. | **util-linux** |
-
-## Further exploration
-
-+-----------------------------------+-----------------------------------+
-| /usr/bin/free                     | Use with option -h for human      |
-|                                   | readable format of free and used  |
-|                                   | memory.                           |
-|                                   |                                   |
-|                                   | Package: **procps**               |
-+-----------------------------------+-----------------------------------+
 | /usr/bin/sudo /usr/sbin/dmidecode | Explore what type of memory you   |
 | \--type memory                    | have, of what speed etc., Explore |
 |                                   | what other types of hardware this |
@@ -95,6 +107,7 @@ This tool comes from the package **fdisk**. Use with care as you will be running
 |                                   |                                   |
 |                                   | Package: **dmidecode**            |
 +-----------------------------------+-----------------------------------+
+
 | /usr/sbin/memtester 24M 2         | Install this from the package     |
 |                                   | "memtester". Check for any errors |
 |                                   | in your memory. In the command    |
@@ -104,6 +117,7 @@ This tool comes from the package **fdisk**. Use with care as you will be running
 |                                   |                                   |
 |                                   | Package: **memtester**            |
 +-----------------------------------+-----------------------------------+
+
 | /usr/bin/hardinfo                 | Install package "hardinfo" to get |
 |                                   | this tool which has a graphical   |
 |                                   | user interface and can export a   |
@@ -111,6 +125,7 @@ This tool comes from the package **fdisk**. Use with care as you will be running
 |                                   |                                   |
 |                                   | Package: **hardinfo**             |
 +-----------------------------------+-----------------------------------+
+
 | /usr/bin/upower                   | Run with -e option to see which   |
 |                                   | option to be used for \<battery\> |
 |                                   | (the one containing the string    |
@@ -120,24 +135,28 @@ This tool comes from the package **fdisk**. Use with care as you will be running
 |                                   |                                   |
 |                                   | Package: **upower**               |
 +-----------------------------------+-----------------------------------+
+
 | /usr/bin/lscpu                    | List CPU information of the       |
 |                                   | machine.                          |
 |                                   |                                   |
 |                                   | Package: **util-linux**           |
 +-----------------------------------+-----------------------------------+
+
 | /usr/bin/sudo /usr/bin/clinfo     | See the capabilities of CPU and   |
 |                                   | GPU to run OpenCL codes.          |
 |                                   |                                   |
 |                                   | Package: **clinfo**               |
 +-----------------------------------+-----------------------------------+
+
 | /sbin/hdparm -Tt /dev/sda         | get/set IDE SATA parameters       |
 |                                   |                                   |
+
 | /sbin/hdparm -v /dev/sda          | Package: **hdparm**               |
 +-----------------------------------+-----------------------------------+
+
 | /usr/bin/iostat -dx /dev/sda      | Report CPU and I/O statistics.    |
 |                                   |                                   |
 |                                   | Package: **sysstat**              |
-+-----------------------------------+-----------------------------------+
 
 ## Configurations
 
@@ -146,7 +165,7 @@ This tool comes from the package **net-tools**. The output is about the configur
 
       /sbin/ifconfig
 
-## Home work:
+## Home work
 
 1. Make a listing of the hard ware components you have in your laptop.
 
