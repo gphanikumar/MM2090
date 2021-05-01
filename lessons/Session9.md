@@ -27,11 +27,8 @@ Now you can run the script to process the lines from a file like RollList.csv us
 
 An awk script contains three sections, each enclosed using flower brackets {}. The section that starts with BEGIN gets executed before any line is read from the input. You can use this section to initialize variables. The main body is contained in the second section and has no name before the flower brackets. This gets executed once for every line from the input. That is, if the input has 1000 lines, this main body gets executed 1000 times, once per line. The section that starts with END gets executed after the input is closed. You can use this to wrap up any computation, print out things and close.
 
-*Warning* The script file for awk should not have anything between the three sections. The flower brackets enclosing the three sections should not contain anything between them. All comments shall be inside the sections. You can use a hash *\#* to document your script with comments. All text after the hash till the end of the line will be ignored by the interpreter.
-
-Run the above script and see the output. The comments inside the three
-code blocks convey the purpose. Notice the similarity of the syntax for
-pattern matching using egrep.
+## Warning
+The script file for awk should not have anything between the three sections. The flower brackets enclosing the three sections should not contain anything between them. All comments shall be inside the sections. You can use a hash *\#* to document your script with comments. All text after the hash till the end of the line will be ignored by the interpreter.
 
 ## Homework
 
