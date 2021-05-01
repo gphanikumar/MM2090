@@ -8,7 +8,7 @@ work on them line by line or in an efficient manner.
 The following example illustrates the case shown in the class.
 
 # Working on two million rows of data
-Creating a file with 2 million rows of data, each row containing two fields -- the second is a square of the first. The shell script is linked here as [../scripts/twomillionrows.sh](twomillionrows.sh).
+Creating a file with 2 million rows of data, each row containing two fields -- the second is a square of the first. The shell script is linked here as [twomillionrows.sh](../scripts/twomillionrows.sh).
 
 Execute this script using the command:
 
@@ -32,7 +32,7 @@ Check the last few lines of the file using the command:
 Try opening this file in LibreOffice Calc or Microsoft Excel and see the error.  Scroll to the bottom of the sheet to see how many rows of data could be read by the spread sheet software.  
 
 ## A simple tast
-The task is to add the two columns and create the third column. This can be done using the awk script linked as [../scripts/twomillionrows.awk](twomillionrows.awk).
+The task is to add the two columns and create the third column. This can be done using the awk script linked as [twomillionrows.awk](../scripts/twomillionrows.awk).
 
 Execute the script using the command to store the output in a file:
 
