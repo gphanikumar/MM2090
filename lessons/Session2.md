@@ -4,7 +4,7 @@
 ## OS Details
 
 ### lsb\_release
-The tool **lsb\_release** comes from the package **lsb-release**. You can find out which operating system, which version, release, description etc., is running on your system. 
+The tool **lsb_release** comes from the package **lsb-release**. You can find out which operating system, which version, release, description etc., is running on your system. 
 
      /usr/bin/lsb\_release -a 
 
