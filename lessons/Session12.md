@@ -40,6 +40,13 @@ The ifeq loop allows for this conditional setting of variable CC for the purpose
 
 One can expand this feature to create one master Makefile that would work on multiple hosts and environments. This is particularly useful when one uses ones laptop for code development and then moves the code to a remote computer for production run. If the laptop and the remote computer have different compiler tools or operating system then a master Makefile helps keep the code repository including the Makefile the same all through.
 
+Try this out by downloading the file [makefile.vars](../scripts/makefile.vars) and running the following two sets of commands.
+
+      MYMC=Aqua
+      make -f makefile.vars
+
+      EXPORT MYMC=Aqua
+      make -f makefile.vars
 
 Exported variables such as CPATH, C\_INCLUDE\_PATH, CPLUS\_INCLUDE\_PATH, OBJC\_INCLUDE\_PATH, LIBRARY\_PATH, LIBPATH, LDPATH etc., are important for compilation. Ask and find out what variables are being used for compilation when you download a code from elsewhere. The locations to be searched for the header file, static libraries for linking at compilation stage and dynamic libraries for linking at execution stage need to be informed to the utility that is being used by the user. Often a mistake in such path variables leads to the codes not being compiled. Watch out for all the exported variables and their values and ensure they are set similarly in your system before embarking on compilation of a code downloaded from elsewhere.
 
