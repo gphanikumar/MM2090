@@ -11,9 +11,18 @@ syntax highlighting.
 
 ## Navigation mode
 
-+-----------------------------------+-----------------------------------+
-| k,j,l,h                           | Take the cursor Up, Down, Left,   |
+| character(s) | action |
+| ------------ | ------ |
+| k | Take the cursor up |
+| j | Take the cursor down |
+| l | Take the cursor right |
+| h | Take the cursor left |
+
+
 |                                   | Right, respectively               |
+| k,j,l,h                           | Take the cursor Up, Down, Left,   |
+| k,j,l,h                           | Take the cursor Up, Down, Left,   |
+| k,j,l,h                           | Take the cursor Up, Down, Left,   |
 +-----------------------------------+-----------------------------------+
 | b,e                               | Take the cursor to beginning /    |
 |                                   | end of the current word           |
