@@ -17,6 +17,7 @@ This repository contains sessions on the following sections:
  * [Session-4](lessons/Session4.md) Going around your machine
  * [Session-5](lessons/Session5.md) Introduction to regex
  * [Session-6](lessons/Session6.md) Application of regex in sed
+ * [Session-6b](lessons/Session6b.md) Introduction to vi editor
  * [Session-7a](lessons/Session7a.md) Application of regex in vi
 
 ## Shell scripts (Shell)
