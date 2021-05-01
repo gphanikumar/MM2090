@@ -1,23 +1,21 @@
-Session -- 4 : Going around your machine and commands
-
-14-08-2019, 11:00 -- 12:00 Hrs, RJN 302
+# Going around your machine and commands
 
 Before you install any package, first get the latest description of
 packages from the source using the following command.
 
-sudo apt-get update
+      sudo apt-get update
 
 After the package database is updated, you can upgrade all the packages
 you installed to the latest version using the following command.
 
-sudo apt-get upgrade
+      sudo apt-get upgrade
 
 You can now install packages that you need usin the following command.
 Example shows how to install a package called fortune. The command
 "fortune" provided by this package is funny. Run it and see for
 yourself.
 
-sudo apt-get install fortune
+      sudo apt-get install fortune
 
 The command "/usr/bin/info" shows the documentation about Linux in a
 structured manner. You can use the arrow keys to navigate to each
@@ -25,7 +23,8 @@ section, press enter to browse. Use "\<" to go back and "q" to quit. The
 experience of navigation using "info" command is like a text-based
 browser.
 
-Linux does not pay attention to the file extensions. The characters that
+## file
+Linux does not rely on file extensions to know what type of a file it is. The characters that
 come after the dot have no special meaning. You can rename a file from
 "something.jpg" to "something.png" and the system will not bother. Use
 the command "/usr/bin/file something.jpg" to see what the system says.
@@ -44,24 +43,27 @@ with "\#!/bin/sh" which tells the system that the script should be run
 using the shell "/bin/sh". Lines that start with "\#" are comments for
 documentation purpose.
 
+## cal
 Use the command "/usr/bin/cal" to view the calendar of the current
 month. Use it with month and year as arguments to see the calendar of
 any month or year -- either in past or future. Eg., use "cal Aug 1947"
 to see the calendar of the August month of the year 1974. Check out
 which day of the week you were born using this command.
 
+## ncal
 Use the command "/usr/bin/ncal" to display the calendar with the week
 days in vertical stacking as opposed to horizontal stacking used in the
 output of the command "cal". Rest of the features are same.
 
+## date
 Use the command "date" to see the current time and date. You can
 customize the format being displayed too. See the following example:
 
-date +"%A %d %B %Y"
+      date +"%A %d %B %Y"
 
 See for yourself how the output looks like.
 
-Homework:
+## Homework
 
 1.  Write a command that displays the weekday of your friends birthday
     in full form as the output. Eg., if your friend was born on a
