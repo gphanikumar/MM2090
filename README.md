@@ -20,7 +20,7 @@ This repository contains sessions on the following sections:
  * [Session-7a](lessons/Session7a.md) Application of regex in vi
 
 ## Shell scripts (Shell)
- * [Session-7b](lessons/Session7b.md) Application of regex in vi
+ * [Session-7b](lessons/Session7b.md) Introduction to awk language
  * [Session-8](lessons/Session8.md) Network ports
  * [Session-9](lessons/Session9.md) Programming in awk language
  * [Session-10](lessons/Session10.md) Introduction to make
