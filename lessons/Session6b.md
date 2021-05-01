@@ -46,15 +46,15 @@ Press Esc key once or more to ensure you are in the navigation mode. Each of the
 
 ## Insert mode
 
-  ----- -----------------------------------------------------------------------------
-  i     Enter insert mode from current position
-  I     Enter insert mode from beginning of line
-  o     Create a new line below current position and enter insert mode
-  O     Create a new line above current position and enter insert mode
-  a     Enter insert mode after current position
-  A     Enter insert mode at the end of the line
-  ESC   The escape character takes you out of the insert mode in to navigation mode
-  ----- -----------------------------------------------------------------------------
+| character(s) | action |
+| ------------ | ------ |
+| i |   Enter insert mode from current position |
+| I |   Enter insert mode from beginning of line |
+| o |   Create a new line below current position and enter insert mode |
+| O |   Create a new line above current position and enter insert mode |
+| a |   Enter insert mode after current position |
+| A |   Enter insert mode at the end of the line |
+| Esc | The escape character takes you out of the insert mode in to navigation mode |
 
 ## Command mode
 
