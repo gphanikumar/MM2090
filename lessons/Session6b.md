@@ -10,6 +10,7 @@ syntax highlighting.
  * Command mode
 
 ## Navigation mode
+Press Esc key once or more to ensure you are in the navigation mode. Each of the following character(s) will perform the action as described across.
 
 | character(s) | action |
 | ------------ | ------ |
@@ -17,77 +18,31 @@ syntax highlighting.
 | j | Take the cursor down |
 | l | Take the cursor right |
 | h | Take the cursor left |
-
-
-|                                   | Right, respectively               |
-| k,j,l,h                           | Take the cursor Up, Down, Left,   |
-| k,j,l,h                           | Take the cursor Up, Down, Left,   |
-| k,j,l,h                           | Take the cursor Up, Down, Left,   |
-+-----------------------------------+-----------------------------------+
-| b,e                               | Take the cursor to beginning /    |
-|                                   | end of the current word           |
-+-----------------------------------+-----------------------------------+
-| Shift+h,Shift+i                   | Take the cursor to top / bottom   |
-|                                   | of screen                         |
-+-----------------------------------+-----------------------------------+
-| Shift+\],                         | Take the cursor to beginning of   |
-|                                   | next paragraph,                   |
-| Shift+\[,                         |                                   |
-|                                   | Take the cursor to the beginning  |
-|                                   | of previous paragraph             |
-+-----------------------------------+-----------------------------------+
-| v                                 | Select text                       |
-+-----------------------------------+-----------------------------------+
-| y                                 | Yank selected text                |
-+-----------------------------------+-----------------------------------+
-| yy                                | Yank current line                 |
-+-----------------------------------+-----------------------------------+
-| p                                 | Paste yanked text after current   |
-|                                   | line                              |
-+-----------------------------------+-----------------------------------+
-| P                                 | Paste yanked text before current  |
-|                                   | line                              |
-+-----------------------------------+-----------------------------------+
-| d                                 | Delete selected text              |
-+-----------------------------------+-----------------------------------+
-| dd                                | Delete current line               |
-+-----------------------------------+-----------------------------------+
-| x                                 | Delete current character          |
-+-----------------------------------+-----------------------------------+
-| 12dd                              | Delete 12 lines from the current  |
-|                                   | position                          |
-+-----------------------------------+-----------------------------------+
-| u                                 | Undo the last change              |
-+-----------------------------------+-----------------------------------+
-| D                                 | Delete content of current line    |
-|                                   | from current position till end.   |
-+-----------------------------------+-----------------------------------+
-| C                                 | Replace current line with a new   |
-|                                   | line in insert mode               |
-+-----------------------------------+-----------------------------------+
-| dw                                | Delete current word               |
-+-----------------------------------+-----------------------------------+
-| 3dw                               | Delete 3 words from the current   |
-|                                   | position                          |
-+-----------------------------------+-----------------------------------+
-| cw                                | Overwrite the current word by     |
-|                                   | entering inert mode               |
-+-----------------------------------+-----------------------------------+
-| r                                 | Replace a single character        |
-+-----------------------------------+-----------------------------------+
-| R                                 | Overwrite characters from the     |
-|                                   | current position onward           |
-+-----------------------------------+-----------------------------------+
-| s                                 | Substitute one character at the   |
-|                                   | cursor position                   |
-+-----------------------------------+-----------------------------------+
-| S                                 | Substitute current line           |
-+-----------------------------------+-----------------------------------+
-| \~                                | Change case (upper/lower) of      |
-|                                   | character at current position     |
-+-----------------------------------+-----------------------------------+
-| Shift+zz                          | Save the file and quit            |
-+-----------------------------------+-----------------------------------+
+| b | Take the cursor to beginning of the word |
+| e | Take the cursor to end of the word |
+| Shift+\] | Take the cursor to beginning of next paragraph |
+| Shift+\[ | Take the cursor to the beginning of previous paragraph | 
+| v | Select text |
+| y | Yank selected text |
+| yy | Yank current line |
+| p | Paste yanked text after current line |
+| P | Paste yanked text before current line |
+| d | Delete selected text |
+| dd | Delete current line |
+| x | Delete current character |
+| 12dd | Delete 12 lines from the current position |
+| u | Undo the last change |
+| D | Delete content of current line from current position till end. |
+| C | Replace current line with a new line in insert mode |
+| dw | Delete current word |
+| 3dw | Delete 3 words from the current position |
+| cw | Overwrite the current word by entering inert mode |
+| r | Replace a single character |
+| R | Overwrite characters from the current position onward |
+| s | Substitute one character at the cursor position |
+| S | Substitute current line |
+| \~ | Change case (upper/lower) of character at current position |
+| Shift+zz | Save the file and quit |
 
 ## Insert mode
 
