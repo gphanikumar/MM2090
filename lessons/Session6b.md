@@ -83,12 +83,12 @@ variables \\1, \\2 etc., for use while replacing.
 For example, to replace all occurances of a word after Hello to be
 replaced and swapped with Hallo, then we can use the following command.
 
-      :%s/Hello \(.*\)/\2 Hallo/g
+      :%s/Hello \(.*\)/\1 Hallo/g
 
 To apply search and replace for 5 lines before the cursor and 7 lines
 after the cursor, use the following command.
 
-      :-5,+7s/Hello \(.*\)/\2 Hallo/g
+      :-5,+7s/Hello \(.*\)/\1 Hallo/g
 
 ## Homework
 
