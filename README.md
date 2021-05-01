@@ -16,9 +16,17 @@ This repository contains sessions on the following sections:
  * [Session-3](lessons/Session3.md) Finding your way around the linux filesystem, important directories
  * [Session-4](lessons/Session4.md) Going around your machine
  * [Session-5](lessons/Session5.md) Introduction to regex
- * [Session-6](lessons/Session6.md) Application of regex
+ * [Session-6](lessons/Session6.md) Application of regex in sed
+ * [Session-7a](lessons/Session7a.md) Application of regex in vi
 
 ## Shell scripts (Shell)
+ * [Session-7b](lessons/Session7b.md) Application of regex in vi
+ * [Session-8](lessons/Session8.md) Network ports
+ * [Session-9](lessons/Session9.md) Programming in awk language
+ * [Session-10](lessons/Session10.md) 
+ * [Session-11](lessons/Session11.md) 
+ * [Session-12](lessons/Session12.md) 
+ * [Session-13](lessons/Session13.md) 
 
 ## Python using Jupyter Notebook (Python)
 
