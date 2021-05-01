@@ -60,22 +60,22 @@ Press Esc key once or more to ensure you are in the navigation mode. Each of the
 
 In the navigation mode, press : to enter command mode.
 
-  ---------------------- --------------------------------------------------------------------------------------------------------------
-  :set number            Display line numbers
-  :set nonumber          Do not display line numbers
-  :set ignorecase        Ignore case while searching
-  :!\<command\>          Open a shell, run \<command\> and wait to return to editor
-  :w                     Write out the file
-  :q                     Quit editor (assumes no changes are pending to be saved)
-  :wq or :x              Save the file and quit the editor
-  :q!                    Quit editor without saving changes made
-  :s/search/replace/g    Search and replace strings on the current line
-  :%s/search/replace/g   Search and replace strings globally
-  :42                    Go to 42^nd^ line
-  :r \<file\>            Read the contents from \<file\> and paste them at the current position
-  /\<string\>            Search for \<string\> and go to its first occurance. "n" to goto next occurance. "N" for previous occurance.
-  :/\<string\>           Search for \<string\> and go to beginning of the line of its first occurance.
-  ---------------------- --------------------------------------------------------------------------------------------------------------
+| character(s) | action |
+| ------------ | ------ |
+| :set number | Display line numbers |
+| :set nonumber | Do not display line numbers |
+| :set ignorecase | Ignore case while searching |
+| :!\<command\> | Open a shell, run \<command\> and wait to return to editor |
+| :w | Write out the file |
+| :q | Quit editor (assumes no changes are pending to be saved) |
+| :wq or :x | Save the file and quit the editor |
+| :q! | Quit editor without saving changes made |
+| :s/search/replace/g |  Search and replace strings on the current line |
+| :%s/search/replace/g | Search and replace strings globally |
+| :42 | Go to 42^nd^ line |
+| :r \<file\> | Read the contents from \<file\> and paste them at the current position |
+| /\<string\> | Search for \<string\> and go to its first occurance. "n" to goto next occurance. "N" for previous occurance. |
+| :/\<string\> | Search for \<string\> and go to beginning of the line of its first occurance. |
 
 In the reg-ex pattern for search, the matched pattern is stored in the
 variables \\1, \\2 etc., for use while replacing.
