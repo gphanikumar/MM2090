@@ -257,9 +257,8 @@ out.
 
       egrep '^\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b$' elist.txt
 
-Contents of file elist.txt for your practice:
+Th file elist.txt should contain some emails. Contents of file elist.txt for your practice:
 
-This file contains sometimes with some emails.
       bogus@bogus
       name@domain.com
       gphani@iitm.ac.in
