@@ -11,8 +11,7 @@ mymakefile.txt*"
 The rules to recompile are listed in the Makefile as follows:
 
       target : prerequisites
-
-      recipe
+          recipe
 
 Each line of recipe should have tab in the beginning. Override this using the variable ".RECIPEPREFIX".
 
@@ -24,10 +23,10 @@ Use variables to hold list of objective functions to avoid spelling errors.
 
       objects = main.o test.o output.o
       mytarget : \$(objects)
-      gcc -o mytarget \$(objects)
+          gcc -o mytarget \$(objects)
       .PHONY : clean
       clean :
-      rm mytarget \$(objects)
+          rm mytarget \$(objects)
 
 This ".PHONY" line asks make to ignore a file called "clean" in the current directory and perform the action "clean" as expected.
 
@@ -62,36 +61,35 @@ The following contents of a Makefile that can be used with the code
       INSTALLDIR=$(CODEBASE)/run
       BACKUPDIR=$(CODEBASE)/backup
       default: main.o qarray.o qtree.o user.o
-      $(cc) $(CFLAGS) main.o qarray.o qtree.o user.o -o qtree.e
+          $(cc) $(CFLAGS) main.o qarray.o qtree.o user.o -o qtree.e
       main.o: main.cpp protos.hpp
-      $(cc) $(CFLAGS) -c main.cpp -o main.o
+          $(cc) $(CFLAGS) -c main.cpp -o main.o
       qarray.o: qarray.cpp qarray.hpp
-      $(cc) $(CFLAGS) -c qarray.cpp -o qarray.o
+          $(cc) $(CFLAGS) -c qarray.cpp -o qarray.o
       qtree.o: qtree.cpp qtree.hpp
-      $(cc) $(CFLAGS) -c qtree.cpp -o qtree.o
+          $(cc) $(CFLAGS) -c qtree.cpp -o qtree.o
       user.o: user.cpp user.hpp
-      $(cc) $(CFLAGS) -c user.cpp -o user.o
+          $(cc) $(CFLAGS) -c user.cpp -o user.o
 
       install:
-      /bin/mv qtree.e $(INSTALLDIR)
+          /bin/mv qtree.e $(INSTALLDIR)
 
       clean:
-      /bin/rm -f *.o qtree.e *.gch
+          /bin/rm -f *.o qtree.e *.gch
 
       DATESTAMP:=$(shell date +"%Y-%m-%d_%H.%M")
       
       TARBALL=codebackup_$(DATESTAMP).tar
 
       tar:
-
-      # ------- making a tarball ------------
-      @echo \"Backing up with datestamp: \$(DATESTAMP)\";
-      @echo \"Tarball name: \$(TARBALL)\";
-      tar -cvf \$(TARBALL) \*.cpp \*.hpp readme.txt Makefile
-      @ls -l \$(TARBALL)
-      /bin/mv \$(TARBALL) \$(BACKUPDIR)
-      # ------- done moving tarball ------------
-      # ----------- end of Makefile ----------------
+        # ------- making a tarball ------------
+        @echo \"Backing up with datestamp: \$(DATESTAMP)\";
+        @echo \"Tarball name: \$(TARBALL)\";
+        tar -cvf \$(TARBALL) \*.cpp \*.hpp readme.txt Makefile
+        @ls -l \$(TARBALL)
+        /bin/mv \$(TARBALL) \$(BACKUPDIR)
+        # ------- done moving tarball ------------
+        # ----------- end of Makefile ----------------
 
 ## Homework
 
@@ -102,6 +100,7 @@ The following contents of a Makefile that can be used with the code
 3. Create a Makefile that does simple book keeping tasks such as the following:
 
 | Command to be made to work | Outcome to be made sure |
+| -------------------------- | ----------------------- |
 | make tmpclean | Remove files older than a day from /tmp folder |
 | make backup | Copy source codes to a backup folder using the date stamp in the filename itself. |
 | make diff | Using the files in the backup folder, show the difference in the files that are modified recently. |
