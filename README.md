@@ -23,6 +23,7 @@ This repository contains sessions on the following sections:
 ## Shell scripts (Shell)
  * [Session-7b](lessons/Session7b.md) Introduction to awk language
  * [Session-8](lessons/Session8.md) Network ports
+ * [Session-8b](lessons/Session8b.md) Programming in awk language
  * [Session-9](lessons/Session9.md) Programming in awk language
  * [Session-10](lessons/Session10.md) Introduction to make
  * [Session-11](lessons/Session11.md) Working with makefile
