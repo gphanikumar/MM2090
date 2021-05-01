@@ -19,8 +19,8 @@ BEGIN{
     # into fields. Default separator is a blank space.
     FS=",";
 }
-# The main code block is executed once per each line read.
 {
+# The main code block is executed once per each line read.
       c++;
       print $0;
       r=$1;
@@ -47,8 +47,8 @@ BEGIN{
       # The function rand() outputs a random number between 0 and 1
       group[r] = int(1+rand()*8);
 }
-# The END block is executed once after all the lines are read and processed.
 END{
+# The END block is executed once after all the lines are read and processed.
       print c;
       print "...closing";
       print("Number of mech students: ", mecount);
