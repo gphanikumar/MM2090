@@ -8,12 +8,12 @@ Using the following command a variable called \$NAME is created and it has the v
 
       NAME=MyLaptop
 
-Check this out by running that and using the following command to print out the variable at the command prompt.
+Check this out by running that and using the following commands to spawn a child process for bash and print out the variable at the command prompt.
 
+      bash
       echo $NAME
 
 Variables set like this are not passed on to the child shells or programs that are launched from the current shell. See the following screenshot for example. The variable \$NAME is available only in the parent shell and not in the child shell.
-
 
 ## Variables that do get passed on to children.
 
@@ -21,14 +21,12 @@ Using the following command a variable called \$NAME is created and it has the v
 
       export NAME=MyLaptop
 
-Check this out by running that and using the following command to print out the variable at the command prompt.
+Check this out by running that and using the following commands to spawn the child process for bash and print out the variable at the command prompt.
 
+      bash
       echo $NAME
 
-Variables set like this are passed on to the child shells or programs
-that are launched from the current shell. See the following screenshot
-for example. The variable \$NAME is available not only in the parent
-shell but also in the child shell.
+Variables set like this are passed on to the child shells or programs that are launched from the current shell. See the following screenshot for example. The variable \$NAME is available not only in the parent shell but also in the child shell.
 
 ## Application to make utility.
 
