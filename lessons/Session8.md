@@ -26,21 +26,15 @@ The system reserved ports that are for popular services are as follows:
 | 587 |  msa     | Secure email communication after authentication|
 | 631 |  cupsd   | Printer protocol in Linux|
 
-If a software that needs communication does not work here are few steps
-that should be checked:
+## Checking connectivity
 
--   The server is reachable over network. Check using ping or ssh or any
-    other service that is known to be available on the server.
--   Check if the port is open using telnet \<ip address\> \<port
-    number\>. You can quit this command using control+\] and typing
-    quit.
--   If the port is not reachable, check on the server if the port is
-    open locally.
--   Check if the port is blocked by an anti-virus software in your
-    client machine.
--   There are possibilities that communication over that port is blocked
-    in the network by the switches. Check that out by taking the client
-    machine to different parts of the physical network and trying.
+Use the commands like **nslookup** or **dig** to find out the IP address using the name of a server. If a software that needs communication does not work here are few steps that should be checked:
+
+-   The server is reachable over network. Check using ping or ssh or any other service that is known to be available on the server.
+-   Check if the port is open using telnet \<ip address\> \<port number\>. You can quit this command using control+\] and typing quit.
+-   If the port is not reachable, check on the server if the port is open locally.
+-   Check if the port is blocked by an anti-virus software or firewall in your client machine.
+-   There are possibilities that communication over that port is blocked in the network by the switches. Check that out by taking the client machine to different parts of the physical network and trying.
 
 Licensed software check for license over the network using some port
 number that their vendor decides. This may change from version to
@@ -48,8 +42,5 @@ version as well. If you are not able to run a licensed software, check
 if the issue is about port or about the number of licenses or an entry
 in the allowed hosts on the license server.
 
-Tools such as "*nmap*" and websites such as "*mxtoolbox.com*" help in
-debugging some of these issues. There is a dedicated linux flavour "kali
-linux at *http://www.kali.org*" that is used by network security experts
-for audit and monitoring of machines.
+Tools such as "*nmap*" and websites such as [https://mxtoolbox.com](https://mxtoolbox.com) help in debugging some of these issues. There is a dedicated linux flavour "kali linux at [http://www.kali.org](http://www.kali.org/) that is used by network security experts for audit and monitoring of machines.
 
