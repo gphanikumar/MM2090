@@ -14,6 +14,9 @@ This repository contains sessions on the following sections:
  * [Session-2d](lessons/Session2d.md) File system
  * [Session-3](lessons/Session3.md) Finding your way around the linux filesystem, important directories
  * [Session-4](lessons/Session4.md) Going around your machine
+
+You can download the file [RollList.csv](scripts/RollList.csv) and use it for the examples given below.
+
  * [Session-5](lessons/Session5.md) Introduction to regex
  * [Session-6](lessons/Session6.md) Application of regex in sed
  * [Session-6b](lessons/Session6b.md) Introduction to vi editor
