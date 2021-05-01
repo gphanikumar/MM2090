@@ -23,10 +23,10 @@ This repository contains sessions on the following sections:
  * [Session-7b](lessons/Session7b.md) Application of regex in vi
  * [Session-8](lessons/Session8.md) Network ports
  * [Session-9](lessons/Session9.md) Programming in awk language
- * [Session-10](lessons/Session10.md) 
- * [Session-11](lessons/Session11.md) 
- * [Session-12](lessons/Session12.md) 
- * [Session-13](lessons/Session13.md) 
+ * [Session-10](lessons/Session10.md) Introduction to make
+ * [Session-11](lessons/Session11.md) Working with makefile
+ * [Session-12](lessons/Session12.md) Shell variables in makefile
+ * [Session-13](lessons/Session13.md) Need for datastructures
 
 ## Python using Jupyter Notebook (Python)
 
