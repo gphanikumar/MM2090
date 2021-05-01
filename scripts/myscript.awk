@@ -4,10 +4,9 @@
 # during July-2019 semester.
 # Run this as follows:
 #
-# cat RollList.csv \| awk -f myscript.awk
+# cat RollList.csv | awk -f myscript.awk
 #
-# This block is executed once before the lines are read and processed.
-
+# The BEGIN block is executed once before the lines are read and processed.
 BEGIN{
     print "beginning...";
     c=0;
@@ -20,7 +19,7 @@ BEGIN{
     # into fields. Default separator is a blank space.
     FS=",";
 }
-# This block is executed once per each line read.
+# The main code block is executed once per each line read.
 {
       c++;
       print $0;
@@ -48,7 +47,7 @@ BEGIN{
       # The function rand() outputs a random number between 0 and 1
       group[r] = int(1+rand()*8);
 }
-# This block is executed once after all the lines are read and processed.
+# The END block is executed once after all the lines are read and processed.
 END{
       print c;
       print "...closing";
