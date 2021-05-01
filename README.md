@@ -1,5 +1,4 @@
-# MM2090
-Introduction to Scientific Computing
+# Introduction to Scientific Computing
 
 A course for first year students at IIT Madras.
 
