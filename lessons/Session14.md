@@ -40,7 +40,11 @@ the command where the "*/path/to/sage*" is where you unzipped the sage
 binary after downloading it. It is a good idea to keep it in a path like
 "*/opt/sage-8.8/*".
 
-/opt/sage-8.8/sage \--notebook=jupyter \--ip=127.0.0.1
+       /opt/sage-8.8/sage --notebook=jupyter --ip=127.0.0.1
+
+Make an alias for the sage command, keep that alias in your .bashrc so 
+that you can just type sage at the command prompt to get it launched
+next time around.
 
 Once the jupyter notebook opens in the browser, you can create a new
 notebook, choose the kernel to be python 3 and you are ready to use
