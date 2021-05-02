@@ -34,6 +34,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [Session-13](lessons/Session13.md) Need for datastructures
 
 ## Python using Jupyter Notebook
+ * [Session-14](lessons/Session14.md) Introduction to python using Jupyter notebook interface
 
 ## SageMath using Jupyter Notebook
 
