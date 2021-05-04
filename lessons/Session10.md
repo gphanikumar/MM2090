@@ -106,6 +106,9 @@ The following contents of a Makefile that can be used with the code
 | make diff | Using the files in the backup folder, show the difference in the files that are modified recently. |
 
 ## Further reading
+
+As you progress writing codes to packages to software, the build tools will become important. Particularly when a large team working in different locations needs to contribute code updates asynchronously to the project. If the whole team agrees to use the same build tool, it helps. Learn a few of these as go along.
+
   * [cmake](https://cmake.org/) - commercially supported open-source platform for software development. See [kitware](https://www.kitware.com/) website for other such projects supported by them.
   * [qmake](https://www.qt.io/) - a utility to build software packages, from the Qt project.
   * [bazel](https://bazel.build/) works for C++ too.
@@ -116,6 +119,6 @@ The following contents of a Makefile that can be used with the code
   * [rake](https://github.com/ruby/rake) is a make like utility for the Ruby programming language.
 
   * [ant](https://ant.apache.org/) and [maven](https://maven.apache.org/) are tools for java compilation from [apache](https://apache.org/).
-  * [jenkins](https://www.jenkins.io/) 
+  * [jenkins](https://www.jenkins.io/) is an opensource automation server.
   * [gradle](https://gradle.org/) is an official build tool for android.
 
