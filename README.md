@@ -19,6 +19,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
 
  * [Session-5](lessons/Session5.md) Introduction to regex
  * [Session-6](lessons/Session6.md) Application of regex in sed
+ * [Session-6a](lessons/Session6a.md) Text editors for command line environment
  * [Session-6b](lessons/Session6b.md) Introduction to vi editor
  * [Session-7a](lessons/Session7a.md) Application of regex in vi
 
