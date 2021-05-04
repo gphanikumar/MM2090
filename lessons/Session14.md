@@ -28,6 +28,10 @@ virtual machine at a mount path and use it. This route is faster but
 limited again by the size of the VDI disc you chose to create in the
 first place.
 
+## SageMath
+
+Pick up the latest version of [sagemath](https://www.sagemath.org/) and have it installed on your machine. 
+
 ## Launching
 
 If you have installed jupyter-notebook natively, then you can lauch it
@@ -38,9 +42,9 @@ an error abour socket or IP address, try running it as
 If you have installed sage, then launch it from your home folder using
 the command where the "*/path/to/sage*" is where you unzipped the sage
 binary after downloading it. It is a good idea to keep it in a path like
-"*/opt/sage-8.8/*".
+"*/opt/sage-9.2/*".
 
-       /opt/sage-8.8/sage --notebook=jupyter --ip=127.0.0.1
+       /opt/sage-9.2/sage --notebook=jupyter --ip=127.0.0.1
 
 Make an alias for the sage command, keep that alias in your .bashrc so 
 that you can just type sage at the command prompt to get it launched
