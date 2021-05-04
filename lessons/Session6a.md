@@ -12,7 +12,7 @@ To start editing a file xaa.txt, you need to simply use the following command. I
 
       vim xaa.txt
 
-Read about the [vim editor](https://www.vim.org/). A nice introduction is available on [An introduction to the vi editor](https://www.redhat.com/sysadmin/introduction-vi-editor) from [the redhat](https://www.redhat.com/) website.
+Read about the [vim editor](https://www.vim.org/). There is [an introduction to the vi editor](https://www.redhat.com/sysadmin/introduction-vi-editor) from [the redhat](https://www.redhat.com/) website and also a help page to [getting started with vim](https://opensource.com/article/19/3/getting-started-vim).
 
 You could also try the neovim version of the vim editor.
 
