@@ -105,3 +105,8 @@ The following contents of a Makefile that can be used with the code
 | make backup | Copy source codes to a backup folder using the date stamp in the filename itself. |
 | make diff | Using the files in the backup folder, show the difference in the files that are modified recently. |
 
+## Further reading
+  * [cmake](https://cmake.org/) - commercially supported open-source platform for software development. See [kitware](https://www.kitware.com/) website for other such projects supported by them.
+  * [qmake](https://www.qt.io/) - a utility to build software packages, from the Qt project.
+  * [rake](https://github.com/ruby/rake) is a make like utility for the Ruby programming language.
+
