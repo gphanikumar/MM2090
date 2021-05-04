@@ -24,7 +24,7 @@ This editor is equally powerful as vi.
 
       sudo apt-get install emacs
 
-# nano
+## nano
 
 This is a simple editor and easy to get going for simple edits.
 
@@ -38,3 +38,11 @@ This editor has a menu system that you can activate using alt key and navigate.
 
       sudo apt-get install tilde
 
+## Homework
+Learn to the following tasks in any of your command line editors
+  * Display line numbers
+  * Display white space or special characters
+  * Goto a particular line number
+  * Search for a string and goto its position in the file
+  * Perform search and replace for a string
+  * Copy and paste
