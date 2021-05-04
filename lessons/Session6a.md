@@ -12,6 +12,8 @@ To start editing a file xaa.txt, you need to simply use the following command. I
 
       vim xaa.txt
 
+Read about the [vim editor](https://www.vim.org/). A nice introduction is available on [An introduction to the vi editor](https://www.redhat.com/sysadmin/introduction-vi-editor) from [the redhat](https://www.redhat.com/) website.
+
 You could also try the neovim version of the vim editor.
 
       sudo apt-get install neovim 
@@ -23,6 +25,8 @@ You could also try the neovim version of the vim editor.
 This editor is equally powerful as vi. 
 
       sudo apt-get install emacs
+
+Read up about the [emacs editor](https://www.gnu.org/software/emacs/).
 
 ## nano
 
@@ -37,6 +41,8 @@ Read up about the [nano editor](https://www.nano-editor.org/dist/v2.1/nano.html)
 This editor has a menu system that you can activate using alt key and navigate.
 
       sudo apt-get install tilde
+
+Read about the [tilde editor](https://os.ghalkes.nl/tilde/).
 
 ## Homework
 Learn to the following tasks in any of your command line editors
