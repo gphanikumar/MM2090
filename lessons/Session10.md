@@ -22,11 +22,11 @@ The first target is what the make starts with. The variable ".DEFAULT\_GOAL" can
 Use variables to hold list of objective functions to avoid spelling errors.
 
       objects = main.o test.o output.o
-      mytarget : \$(objects)
-          gcc -o mytarget \$(objects)
+      mytarget : $(objects)
+          gcc -o mytarget $(objects)
       .PHONY : clean
       clean :
-          rm mytarget \$(objects)
+          rm mytarget $(objects)
 
 This ".PHONY" line asks make to ignore a file called "clean" in the current directory and perform the action "clean" as expected.
 
@@ -83,11 +83,11 @@ The following contents of a Makefile that can be used with the code
 
       tar:
         # ------- making a tarball ------------
-        @echo \"Backing up with datestamp: \$(DATESTAMP)\";
-        @echo \"Tarball name: \$(TARBALL)\";
-        tar -cvf \$(TARBALL) \*.cpp \*.hpp readme.txt Makefile
-        @ls -l \$(TARBALL)
-        /bin/mv \$(TARBALL) \$(BACKUPDIR)
+        @echo "Backing up with datestamp: $(DATESTAMP)";
+        @echo "Tarball name: $(TARBALL)";
+        tar -cvf $(TARBALL) *.cpp *.hpp readme.txt Makefile
+        @ls -l $(TARBALL)
+        /bin/mv $(TARBALL) $(BACKUPDIR)
         # ------- done moving tarball ------------
         # ----------- end of Makefile ----------------
 
