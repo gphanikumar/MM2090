@@ -92,11 +92,11 @@ modify it.
 You can try one of the following options to try jupyter notebook on the internet while you get the sagemath installed on your laptop.
 
   * [cocalc](https://cocalc.com/) - you can sign-in using your google account and use the free trial to try out python, sage, octave and a whole bunch of languages(R, Julia, C++, CP, Haskell, Javascript, Prolog, Singular, Sparql) and environments (bash).
-  * [mybinder](https://mybinder.org/) - you can have a github repository created to store your notebook files and point that to the mybinder and use the browser to work interactively. You can use Python, R and Julia on this platform.
   * [google colaboratory](https://colab.research.google.com/) - offers a cloud based jupyter notebook for python.
-  * [Microsoft Azure Notebooks](https://notebooks.azure.com/) - you can point your github repository of notebooks and view them online.
+  * [mybinder](https://mybinder.org/) - you can have a github repository created to store your notebook files and point that to the mybinder and use the browser to work interactively. You can use Python, R and Julia on this platform.
   * [Datalore](https://datalore.jetbrains.com/) - you can sign in using your google account and use the notebook interface for python, kotlin and various kernels to work on the cloud.
   * [kaggle](https://www.kaggle.com/) - you can register with your google account and user python and R in jupyter notebook.
+  * [Microsoft Azure Notebooks](https://notebooks.azure.com/) - you can point your github repository of notebooks and view them online.
 
 ## Introduction to python using jupyter notebook.
 
