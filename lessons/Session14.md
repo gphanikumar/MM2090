@@ -100,10 +100,12 @@ You can try one of the following options to try jupyter notebook on the internet
 
 ## Introduction to python using jupyter notebook.
 
-Copy the *Session-14.ipynb* file from the moodle page to see what is
+Copy the jupyter notebook files linked on the index page to see what is
 covered in the class. Some description is already there in the notebook
 itself. You can edit this notebook from within the jupyter notebook of
-your machine to explore more.
+your machine or on the cloud to explore more.
+
+Sometimes it may happen that your installation of sage does not have the module you need for your python code. Look up the help page on [importing](https://ask.sagemath.org/question/35457/importing-python-packages-into-sage-or-vice-versa/) packages into sage to extend its capability.
 
 ## Homework
 
