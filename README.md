@@ -39,6 +39,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [python-1](notebooks/python-1.ipynb) Using python as a calculator
  * [python-2](notebooks/python-2.ipynb) collections in python: list, tuple, dict, set
  * [python-3](notebooks/python-3.ipynb) loops, functions, maps, simple plots
+ * [python-4](notebooks/python-4.ipynb) copies and pointers
 
 ## SageMath using Jupyter Notebook
 
