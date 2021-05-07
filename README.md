@@ -40,6 +40,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [python-2](notebooks/python-2.ipynb) collections in python: list, tuple, dict, set
  * [python-3](notebooks/python-3.ipynb) loops, functions, maps, simple plots
  * [python-4](notebooks/python-4.ipynb) copies and pointers
+ * [python-5](notebooks/python-5.ipynb) 2D visualization of data
 
 ## SageMath using Jupyter Notebook
 
