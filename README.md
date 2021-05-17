@@ -41,6 +41,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [python-3](notebooks/python-3.ipynb) loops, functions, maps, simple plots
  * [python-4](notebooks/python-4.ipynb) copies and pointers
  * [python-5](notebooks/python-5.ipynb) 2D visualization of data
+ * [python-6](notebooks/python-6.ipynb) Arrays from numpy, fitting polynomials and user defined functions to data
 
 ## SageMath using Jupyter Notebook
 
