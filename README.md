@@ -36,7 +36,9 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
 
 ## Python using Jupyter Notebook
  * [Session-14](lessons/Session14.md) Introduction to python using Jupyter notebook interface
+
 Some of the notebooks may not render soon enough, try reloading if you want to see the notebook right on this site. You can click on the icon "raw" and save the notebook to your desktop and use. 
+
  * [python-1](notebooks/python-1.ipynb) Using python as a calculator
  * [python-2](notebooks/python-2.ipynb) collections in python: list, tuple, dict, set
  * [python-3](notebooks/python-3.ipynb) loops, functions, maps, simple plots
