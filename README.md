@@ -42,6 +42,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [python-4](notebooks/python-4.ipynb) copies and pointers
  * [python-5](notebooks/python-5.ipynb) 2D visualization of data
  * [python-6](notebooks/python-6.ipynb) Arrays from numpy, fitting polynomials and user defined functions to data
+ * [python-7](notebooks/python-7.ipynb) Binning of large arrays, Parametric plots, Linear Algebra, Array representation in memory and its role on speed of computation
 
 ## SageMath using Jupyter Notebook
 
@@ -52,5 +53,9 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
 ## Introduction document preparation using LaTeX
 
 Look at the [resources](resources.md) page for useful links.
+
+## Examples and solutions
+
+Look at the contributions by [abhigyan](abhigyan/README.md) for examples and solutions that could help you learn more about the concepts of this course.
 
 -[Gandham Phanikumar](https://mme.iitm.ac.in/gphani/)
