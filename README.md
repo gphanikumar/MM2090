@@ -53,6 +53,7 @@ Some of the notebooks may not render soon enough, try reloading if you want to s
 Github may have limited rendering of these notebooks. You can click on the icon on top-right to view the notebook externally in nbviewer.
  * [sage-1](notebooks/sage-1.ipynb) Introduction to symbolic computation using sage expressions
  * [sage-2](notebooks/sage-2.ipynb) Manipulation of symbolic expressions
+ * [sage-3](notebooks/sage-3.ipynb) Symbolic differentiation
 
 ## Octave
 
