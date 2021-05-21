@@ -50,6 +50,7 @@ Some of the notebooks may not render soon enough, try reloading if you want to s
  * [python-9](notebooks/python-9.md) Saving the modified dataframe to a csv on google drive
 
 ## SageMath using Jupyter Notebook
+ * [sage-1](notebooks/sage-1.ipynb) Introduction to symbolic computation using sage expressions
 
 ## Octave
 
