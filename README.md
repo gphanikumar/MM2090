@@ -51,6 +51,7 @@ Some of the notebooks may not render soon enough, try reloading if you want to s
 
 ## SageMath using Jupyter Notebook
  * [sage-1](notebooks/sage-1.ipynb) Introduction to symbolic computation using sage expressions
+ * [sage-2](notebooks/sage-2.ipynb) Manipulation of symbolic expressions
 
 ## Octave
 
