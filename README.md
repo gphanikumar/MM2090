@@ -50,10 +50,11 @@ Some of the notebooks may not render soon enough, try reloading if you want to s
  * [python-9](notebooks/python-9.md) Saving the modified dataframe to a csv on google drive
 
 ## SageMath using Jupyter Notebook
-Github may have limited rendering of these notebooks. You can click on the icon on top-right to view the notebook externally in nbviewer.
+Github may have limited rendering of these notebooks. You can click on the icon on top-right to view the notebook externally in nbviewer. If github does not render the notebook, try reloading. Alternatively download the raw file to your desktop and run it locally.
  * [sage-1](notebooks/sage-1.ipynb) Introduction to symbolic computation using sage expressions
  * [sage-2](notebooks/sage-2.ipynb) Manipulation of symbolic expressions
  * [sage-3](notebooks/sage-3.ipynb) Symbolic differentiation
+ * [sage-4](notebooks/sage-4.ipynb) Symbolic integration
 
 ## Octave
 
