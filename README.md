@@ -57,6 +57,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [sage-4](notebooks/sage-4.ipynb) Symbolic integration
  * [sage-5](notebooks/sage-5.ipynb) Using LaTeX to render symbols and functions
  * [sage-6a](notebooks/sage-6a.ipynb) Integers in sage
+ * [sage-6b](notebooks/sage-6b.ipynb) Real Numbers in sage
 
 ## Octave
 
