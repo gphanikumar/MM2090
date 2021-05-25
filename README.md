@@ -59,6 +59,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [sage-6a](notebooks/sage-6a.ipynb) Integers in sage
  * [sage-6b](notebooks/sage-6b.ipynb) Real Numbers in sage
  * [sage-6c](notebooks/sage-6c.ipynb) Rational Numbers in sage
+ * [sage-6d](notebooks/sage-6d.ipynb) Complex Numbers in sage
 
 ## Octave
 
