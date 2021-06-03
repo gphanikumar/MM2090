@@ -61,11 +61,13 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [sage-6c](notebooks/sage-6c.ipynb) Rational Numbers in sage
  * [sage-6d](notebooks/sage-6d.ipynb) Complex Numbers in sage
 
+## Introduction document preparation using LaTeX
+ * [latex-1](lessons/latex-1.md) Getting access to LaTeX typesetting environment
+
 ## Octave
 
 ## Introduction to Parallel Computing
 
-## Introduction document preparation using LaTeX
 
 Look at the [resources](resources.md) page for useful links.
 
