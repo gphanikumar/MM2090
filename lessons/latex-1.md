@@ -24,10 +24,10 @@ You will also need a good viewer for ps and pdf files. Okular is a good choice. 
 
 There is a nice cloud based platform to prepare latex documents. If you register with the email provided by your university then you can avail extra features that come with subscription. IIT Madras has done that for its students and faculty members so register with your email on smail.iitm.ac.in domain.
 
-      [https://www.overleaf.com/](https://www.overleaf.com/)
+ * [https://www.overleaf.com/](https://www.overleaf.com/)
 
 ## Windows users
 
 The miktex distribution is for all platforms but for windows, its a good one.
 
-     [https://miktex.org/](https://miktex.org/)
+ * [https://miktex.org/](https://miktex.org/)
