@@ -1,5 +1,5 @@
 # A mapping of MacOS to Linux commands
-(Tested on MacOS Mojave 10.14.6)
+(Tested on MacOS Mojave 10.14.6)  
 This is a work in progress. We'll keep on adding the commands, as and when we find them.
 
 |Command|Details|
