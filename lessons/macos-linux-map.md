@@ -1,6 +1,8 @@
 # A mapping of MacOS to Linux commands
 (Tested on MacOS Mojave 10.14.6)
 
+|Command|Details|
+|-------|-------|
 |open a searching option in vi and some other programs	|`/`|
 |Install Homebrew	|`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|
 |for clubbing multiple commands in a single command-line	|`|`|
