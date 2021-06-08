@@ -1,12 +1,13 @@
 #/usr/bin/gawk -f
 BEGIN{
-	print "Welcome to Infinity War!";
+	print "MCU Stats";
 	heros=0;
 	villains=0;
 	complicated=0;
 	antiheros=0;
 	FS=",";
 }
+# Counting the heros, Antiheros, Villains and People with complicated loyalties in the given csv file
 {
 	name=$1;
 	aka=$2;
@@ -18,6 +19,7 @@ BEGIN{
 	types[name]=type;
 	akas[name]=aka;
 }
+# Writing one line about each character.
 END{
 	print ("Number of heroes are: ",heros);
 	print ("Number of villains are", villains);

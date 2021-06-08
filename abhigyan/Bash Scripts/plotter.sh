@@ -8,6 +8,6 @@ read b
 echo -n "Enter the Maximum displacement (X0): "
 read x
 
-#echo "$x $b"
+echo "$x $b"
 
 
