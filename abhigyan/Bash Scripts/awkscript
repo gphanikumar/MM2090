@@ -1,0 +1,18 @@
+#!/usr/bin/gawk -f
+BEGIN{
+	print "beginning";
+}
+{
+	c=0;
+	mecount=0;
+	mmcount=0;
+	cecount=0;
+}
+END{
+	print c;
+	print "closing";
+	print("Number of mech students = ", mecount);
+	print("Number of mech students = ", mmcount);
+	print("Number of mech students = ", mmcount);
+
+

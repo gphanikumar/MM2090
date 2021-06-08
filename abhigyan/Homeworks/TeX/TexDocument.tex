@@ -1,0 +1,142 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\title{Summary of \LaTeX{}}
+\author{Abhigyan Chattopadhyay\\
+ME19B001}
+\setcounter{section}{-1}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+\LaTeX{} is a document preparation system, which results in very high quality text output. Unlike Microsoft Office, or LibreOffice, or any of the document editing suites, \LaTeX{} is not a WYSIWYG (what you see is what you get) editor, and writing a document in \LaTeX{} is more like coding a program. This brings in two things:
+
+\begin{enumerate}
+\item Uniformity in document looks, and
+\item Abstraction and automation of unimportant tasks like text alignment and font sizes
+\end{enumerate}
+
+Both of these tasks invariably take up a large amount of our productivity in WYSIWYG editors, hence \LaTeX{} is used a lot in scientific publications and is considered a de-facto standard. Here's the \href{https://www.latex-project.org/}{\LaTeX{}} website.
+
+In this document, I plan to show how to make the following:
+
+\begin{enumerate}
+\item Numbered and Bulleted lists
+\item Tables
+\item Equations
+\item Citations (using bibtex)
+\item Hyperlinks (using hyperref)
+\item Figures (using graphicx)
+\end{enumerate}
+
+\section{Numbered and Bulleted Lists}
+
+\subsection{Numbered List}
+An example numbered list:
+
+\fbox{
+\begin{minipage}{15em}
+
+\textbackslash begin\{enumerate\}
+
+\textbackslash item Item 1
+
+\textbackslash item Item 2
+
+\textbackslash item Item 3
+
+\textbackslash end\{enumerate\}
+\end{minipage}
+}
+
+This is rendered in \LaTeX{} as:
+
+\begin{enumerate}
+\item Item 1
+\item Item 2
+\item Item 3
+\end{enumerate}
+
+\subsection{Bulleted List}
+An example bulleted list:
+
+\fbox{
+\begin{minipage}{15em}
+
+\textbackslash begin\{itemize\}
+
+\textbackslash item Item 1
+
+\textbackslash item Item 2
+
+\textbackslash item Item 3
+
+\textbackslash end\{itemize\}
+\end{minipage}
+}
+
+This is rendered in \LaTeX{} as:
+
+\begin{itemize}
+\item Item 1
+\item Item 2
+\item Item 3
+\end{itemize}
+\pagebreak
+\section{Tables}
+
+An example table:
+
+\fbox{
+\begin{minipage}{35em}
+
+\textbackslash begin\{tabular\}\{l r$|$c$|$p\{2cm\}$|$\}
+
+\textbackslash hline
+
+Column left \& Column right \& Column centre \& Column Fixed Width \textbackslash\textbackslash
+
+\textbackslash hline
+
+Text \& Number \& Anything \& Fixed width data \textbackslash\textbackslash
+
+\textbackslash hline
+
+Cats \textbackslash\& Dogs \& 10 \& Meow \& Woof \textbackslash\textbackslash
+
+Cows \& Sheep (No \textbackslash textbackslash hline above) \& 9 \& Moo \& Baa \textbackslash\textbackslash
+
+\textbackslash hline
+
+\textbackslash end\{tabular\}
+\end{minipage}
+}
+
+This is rendered in \LaTeX{} as:
+
+\begin{tabular}{|l r|c|p{2cm}|}
+\hline
+Column left & Column right & Column centre & Column Fixed Width \\
+\hline
+Text & Number & Anything & Fixed width data \\
+\hline
+Cats \& Dogs & 10 & Meow & Woof \\
+Cows \& Sheep (No \textbackslash hline above) & 9 & Moo & Baa \\
+\hline
+\end{tabular}
+
+\section{Equations}
+
+To insert an equation in \LaTeX{}, we surround it by \$ \$ to make an inline equation, while we surround it with \$\$ \$\$ to make it a separate equation.
+
+To make it a numbered and referable equation, we need to use the \textbackslash equation environment.
+
+For example:
+
+\fbox{
+\begin{minipage}{35em}
+
+\end{minipage}
+}
+
+\end{document}

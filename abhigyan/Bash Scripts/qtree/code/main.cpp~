@@ -1,0 +1,140 @@
+#include "user.hpp"
+
+// ------------------------------------------------------------------------
+
+int main() {
+
+// create a non-static member of class user to
+// point to member functions
+  int (user::*pt2member)(int) = NULL;
+
+  user qt;
+  qt.mkUniformTree(4);
+  qt.mkArray(qt.nx);
+
+//  char *QueueDataFile = "queue.dat";
+//  qt.qwrite(QueueDataFile);
+
+  pt2member = &user::InitData;
+  if(pt2member == &user::InitData) 
+    std::cout << "Pointer to InitData is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+  pt2member = &user::PrintNbrs;
+  if(pt2member == &user::PrintNbrs) 
+    std::cout << "Pointer to PrintNbrs is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+/*
+  pt2member = &user::UnRefineCriterion;
+  if(pt2member == &user::UnRefineCriterion) 
+    std::cout << "Pointer to UnRefineCriterion is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IUNREFINE);
+  std::cout << "... done." << endl;
+*/
+//qt.testunref(4);
+for (int i = 0; i <=20; i++) {
+
+  pt2member = &user::Bound;
+  if(pt2member == &user::Bound) 
+    std::cout << "Pointer to Bound is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+  pt2member = &user::PutBack;
+  if(pt2member == &user::PutBack) 
+    std::cout << "Pointer to PutBack is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+  pt2member = &user::Calculate;
+  if(pt2member == &user::Calculate) 
+    std::cout << "Pointer to Calculate is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+}
+  char *GridFileName = "grid.dat";
+  qt.printnodes(GridFileName);
+
+  qt.Tree2Array(qt.var);
+  char *DataFileName = "t1.dat";
+  qt.PrintGridData(DataFileName);
+
+  
+
+
+ user qr;
+
+  
+  qt.mkUniformTree(4);
+  qt.mkArray(qt.nx);
+
+//  char *QueueDataFile = "queue.dat";
+//  //  qt.qwrite(QueueDataFile);
+//
+    pt2member = &user::InitData;
+    if(pt2member == &user::InitData)
+    std::cout << "Pointer to InitData is set" << endl;
+    std::cout << "traversing ..." << endl;
+    qt.TraverseNodes(pt2member, IEXECUTE);
+    std::cout << "... done." << endl;
+
+    pt2member = &user::PrintNbrs;
+    if(pt2member == &user::PrintNbrs)
+    std::cout << "Pointer to PrintNbrs is set" << endl;
+    std::cout << "traversing ..." << endl;
+    qt.TraverseNodes(pt2member, IEXECUTE);
+    std::cout << "... done." << endl;
+                              /*
+//                                pt2member = &user::UnRefineCriterion;
+//                                  if(pt2member == &user::UnRefineCriterion) 
+//                                      std::cout << "Pointer to UnRefineCriterion is set" << endl;
+//                                        std::cout << "traversing ..." << endl;
+//                                          qt.TraverseNodes(pt2member, IUNREFINE);
+//                                            std::cout << "... done." << endl;
+//                                                                                                                   
+// ------------------------------------------------------------------------------*/
+qt.testunref(4);
+for (int i = 0; i <=20; i++) {
+
+  pt2member = &user::Bound;
+  if(pt2member == &user::Bound)
+    std::cout << "Pointer to Bound is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+  pt2member = &user::PutBack;
+  if(pt2member == &user::PutBack)
+    std::cout << "Pointer to PutBack is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+  pt2member = &user::Calculate;
+  if(pt2member == &user::Calculate)
+    std::cout << "Pointer to Calculate is set" << endl;
+  std::cout << "traversing ..." << endl;
+  qt.TraverseNodes(pt2member, IEXECUTE);
+  std::cout << "... done." << endl;
+
+}
+  char *GridFileName1 = "grid1.dat";
+  qt.printnodes(GridFileName1);
+
+  qt.Tree2Array(qt.var);
+  char *DataFileName1 = "t.dat";
+  qt.PrintGridData(DataFileName1);
+
+  return(0);
+
+}

@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{article}
+\author{Abhigyan Chattopadhyay\\
+ME19B001}
+\title{Basics of Python}
+\usepackage{graphicx}
+
+\usepackage{color}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{lightblue}{rgb}{0.4,0.4,0.9}
+\usepackage{listings}
+\lstset{
+  frame=tb,
+  language=Python,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{orange},
+  keywordstyle=\color{blue},
+  commentstyle=\color{lightblue},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4
+}
+
+
+\begin{document}
+\maketitle
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.1]{python_img}
+\end{center}
+\end{figure}
+
+\section{Basic Maths}
+\subsection{Operators available:}
+\begin{itemize}
+\item + (add)
+\item - (subtract)
+\item * (multiply)
+\item / (normal divide)
+\item // (floor divide)
+\item ** (power)
+\item \% (modulo)
+\end{itemize}
+
+\begin{lstlisting}
+>>> 2+2
+4
+>>> 50 - 5*6
+20
+>>> 8 / 5  # normal division always returns a floating point number
+1.6
+>>> 8 // 5 # floor division always returns an integer
+1
+>>> 13 % 5 # modulo operator
+3
+>>> 12**5
+248832
+\end{lstlisting}
+
+\section{Basic Input and Output}
+
+\end{document}

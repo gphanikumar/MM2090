@@ -1,0 +1,4 @@
+1. OCR
+2. NLP
+3. Figure out wtf the question is asking to find
+4. Find that value and print it
