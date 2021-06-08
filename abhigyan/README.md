@@ -83,7 +83,7 @@ Some C programs and a Makefile. Made while learning MakeFiles
 
 ## Session Notes
 
-Contains notes provided by professor G Phani for each of the sessions conducted.
+Contains notes provided by professor Phanikumar for each of the sessions conducted.
 Definitely worth a read, especially when in a tough spot.
 
 ## 2021 Update
