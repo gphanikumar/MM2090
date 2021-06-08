@@ -1,4 +1,4 @@
-# MM2090_HW
+# MM2090 - July-November 2019
 This folder contains all of the files I had ever created during the course MM2090 that I took in the July-November 2019 semester at IITM. Feel free to try out stuff from here and use anything you need or feel will be useful.
 
 ## Bash Scripts:
