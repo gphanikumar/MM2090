@@ -4,6 +4,7 @@ The preferred operating system for this course is [Ubuntu 20.04 LTS (focal)](htt
 
 You need to have regular access to a computer with a linux operating system installed on it. Here are different possibilities.
 
+## Using your own machine
 1. If you have a laptop with Ubuntu or anyother flavor of Linux on it, you are ready to go.
 2. If you have a Macbook, you don't have to make any change. Most of the linux commands have their equivalents in MacOS too. Obtain a mapping of the commands with help of internet and the teaching assistants and keep that handy. Make yourself comfortable with the terminal application in MacOS.
 3.  If you have a laptop of your own, seek help from the teaching assistants or volunteers for the course to get Ubuntu installed in dual boot configuration. Take back up of files before modifying partitions -- just in case.
@@ -12,7 +13,10 @@ You need to have regular access to a computer with a linux operating system inst
 6.  If you have a laptop but are unable to get a Linux/Unix like environment on it working, at least get OpenSSH or PuTTY installed on it. Obtain a login to any of the Linux machines in the lab with help from the teaching assistants. Login using [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) / [PuTTY](https://www.putty.org/) to that machine and try your commands.
 7. You can also consider buying a [raspberry pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and have [ubuntu](https://ubuntu.com/raspberry-pi) installed on it. Ubuntu support for ARM is pretty good. 
 8.  If you do not possess a laptop and are also unable to borrow it from a friend for this course, please consider taking one for hire.
-9. You can register yourself at [webminal](https://www.webminal.org/) and use the terminal on the web browser for free. They have some lessons for you to get familiarized with the command line environment set up along side the terminal.
-10. You can sign-in to [cocalc](https://cocalc.com/) and open a terminal session to try it out on the web browser. Check out the free period for evaluation.
+
+## Using the cloud environment 
+1. You can register yourself at [webminal](https://www.webminal.org/) and use the terminal on the web browser for free. They have some lessons for you to get familiarized with the command line environment set up along side the terminal.
+2. You can sign-in to [cocalc](https://cocalc.com/) and open a terminal session to try it out on the web browser. Check out the free period for evaluation.
+3. You can sign-in to [replit](https://replit.com/) and open a bash session to try it out on the web browser. Except for sagemath, it has tons of languages supported like cocalc.
 
 Hands on experience is a must to learn the course contents. Please invest your time and efforts to get the practical experience. It will make a big difference to the way you approach a technical problem for the rest of your career.

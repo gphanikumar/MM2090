@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\graphicspath{{/home/abhigyan/Pictures/}}
+
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+  frame=tb,
+  language=awk,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{darkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4
+}
+
+\title{Homework 4}
+\author{Abhigyan Chattopadhyay
+  \\ME19B001
+  \\IIT Madras
+}
+
+\begin{document}
+\maketitle
+
+\pagebreak
+\section{Homework - Session 9}
+\subsection{Code from awk script}
+
+\begin{lstlisting}
+#!/usr/bin/gawk
+BEGIN{
+  	#Setting the file separator as ,
+  	FS=",";
+	avg1=0;
+	avg2=0;
+	avg3=0;
+	avg4=0;
+	count=0;
+}
+{
+	x = $1+$2+$3;
+	#printing the value of the sum just after the input data with a comma
+	print($0,",",x);
+	#currently, just finding the summation of each line, average will be taken later
+	avg1=avg1+$1;
+	avg2=avg2+$2;
+	avg3=avg3+$3;
+	avg4=avg4+x;
+	count++;
+}
+END{
+  	#taking the averages
+	avg1/=count;
+	avg2/=count;
+	avg3/=count;
+	avg4/=count;
+	print("Averages:");
+	print(avg1,",", avg2,",", avg3,",", avg4);
+	print("Lines parsed = ", count);
+}
+\end{lstlisting}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Awk-Script-0}
+  \caption{The starting few lines of the contents of the csv file that contains the comma-separated values of 1500 numbers, their squares, and their cubes}
+  \label{fig:pic1}
+\end{figure}
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Awk-Script-1}
+  \caption{The starting few lines of the output of the awk script when run on the csv file}
+  \label{fig:pic2}
+\end{figure}
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Awk-Script-2}
+  \caption{The ending few lines of the output of the awk script}
+  \label{fig:pic3}
+\end{figure}
+
+\end{document}

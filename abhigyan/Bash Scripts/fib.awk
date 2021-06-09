@@ -1,0 +1,21 @@
+#!/usr/bin/gawk
+BEGIN{
+}
+{
+	n=$1;
+	print(n);
+	a=0;
+	b=1;
+	i=2;
+	c=0;
+	while(i<=n){
+		c=a+b;
+		print(c);
+		a=b;
+		b=c;
+		i++;
+	}
+}
+END{
+	print("This is the fibonacci series of ",n," terms");
+}
