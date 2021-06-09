@@ -2,7 +2,7 @@
 (Tested on MacOS Mojave 10.14.6)  
 This is a work in progress. We'll keep on adding the commands, as and when we find them.
 
-|Task|	|MacOS|	|Ubuntu/Linux|
+|Task	|MacOS	|Ubuntu/Linux|
 |---|---|---|
 |open a searching option in vi and some other programs	|`/`|	same|
 |Install Homebrew	|`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|	same|
