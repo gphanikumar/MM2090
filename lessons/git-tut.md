@@ -2,8 +2,10 @@
 
 # Get to know about github
 
+  * [git-scm](https://git-scm.com/) has everything about the git concept.
   * [Github Guides](https://www.youtube.com/githubguides) channel on youtube has many videos to help you learn about the github environment.
   * [Github Guides](https://guides.github.com/) website has tutorials you can use to learn about github step by step.
+  * Download the [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) and have it handy.
 
 ## Installing git
 
