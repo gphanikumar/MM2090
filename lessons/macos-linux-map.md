@@ -67,3 +67,7 @@ This is a work in progress. We'll keep on adding the commands, as and when we fi
 |searches for text asdf in the file xyz line by line and then prints from the first occurrence of the text asdf to the end of the file (denoted by $p)	|`sed -n '/asdf/,$p' xyz`|	same|
 |searches for text dog and cat in file xyz and prints everything in between those two words (including both)	|`sed -n '/dog/,/cat/p' xyz`|	same|
 |to find the location of that command	|`whereis`|	same|
+
+# Alternative Terminal for MacOS  
+iTerm is a powerful alternative to the default Terminal of MacOS. It has live command history and many other funcatoinalities.
+You can download iTerm from [here](https://iterm2.com/downloads.html)
