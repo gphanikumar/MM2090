@@ -1,5 +1,10 @@
 # Using Git
 
+# Get to know about github
+
+  * [Github Guides](https://www.youtube.com/githubguides) channel on youtube has many videos to help you learn about the github environment.
+  * [Github Guides](https://guides.github.com/) website has tutorials you can use to learn about github step by step.
+
 ## Installing git
 
 Git is readily available as a package on ubuntu. Install it using the following command.
@@ -19,3 +24,7 @@ Git is readily available as a package on ubuntu. Install it using the following 
 ## Working from your local machine
 
 ## Managing pull requests
+
+## Managing your website for documentation
+
+  * [Github Pages](https://guides.github.com/features/pages/) uses jekyll and sets up your website for documentation or even your personal website easily. The [markdown syntax](https://guides.github.com/features/mastering-markdown/) makes it rather easy to put up stuff. 
