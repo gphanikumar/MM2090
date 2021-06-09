@@ -65,6 +65,10 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 ## Introduction document preparation using LaTeX
  * [latex-1](lessons/latex-1.md) Getting access to LaTeX typesetting environment
 
+## Working with Git
+
+ * [git-tut](lessons/git-tut.md) Tutorials to help with git
+
 ## Octave
 
 ## Introduction to Parallel Computing
