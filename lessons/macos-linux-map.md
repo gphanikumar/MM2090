@@ -31,7 +31,7 @@ This is a work in progress. We'll keep on adding the commands, as and when we fi
 |Get battery information	|`pmset -g batt`|	`inxi`|
 |Process status	|`ps`|	same|
 |Searching regular expressions	|`regex`|	same|
-|List all the available software updates	|`softwareupdate -l`|	`sudo apt list --upgradable'|
+|List all the available software updates	|`softwareupdate -l`|	`sudo apt list --upgradable`|
 |Login to user "user_name"	|`su -l "user_name"`|	`su -- username`|
 |Current Mac operating system version and build number.	|`sw_vers`|	`lsb_release -a`|
 |Similar to system_profiler bt concise	|`sysctl`|`uname`|
