@@ -1,5 +1,6 @@
 # A mapping of MacOS to Linux commands
 (Tested on MacOS Mojave 10.14.6)  
+Homebrew is a robust package manager to install and manage Linux packages in MacOS.  
 This is a work in progress. We'll keep on adding the commands, as and when we find them.
 
 |Task	|MacOS	|Ubuntu/Linux|
