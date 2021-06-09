@@ -6,7 +6,7 @@ This is a work in progress. We'll keep on adding the commands, as and when we fi
 |---|---|---|
 |open a searching option in vi and some other programs	|`/`|	same|
 |Install Homebrew	|`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|	same|
-|for clubbing multiple commands in a single command-line	|`|`|	same|
+|for clubbing multiple commands in a single command-line	|`&`|	same|
 |the command will run in the background	|`any command with at the end "&" without the quotes`|	same|
 |get your EXTERNAL ip address	|`curl ifconfig.me`|	dig @resolver4.opendns.com myip.opendns.com +short'|
 |cut the output of a command column wise	|`cut`|	same|
