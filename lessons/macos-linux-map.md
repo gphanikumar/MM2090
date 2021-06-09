@@ -5,7 +5,7 @@ This is a work in progress. We'll keep on adding the commands, as and when we fi
 
 |Task	|MacOS	|Ubuntu/Linux|
 |---|---|---|
-|Open a searching option in vi and some other programs	|`/`|	same|
+|Open a searching option in `vi`	|`/`|	same|
 |Install Homebrew	|`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|	same|
 |For clubbing multiple commands in a single command-line	|`&`|	same|
 |The command will run in the background	|`any command with at the end "&" without the quotes`|	same|
