@@ -40,11 +40,11 @@ compatible with octave or Matlab.
 Contents of the file "*f.txt*":
 
       sin(x),0,3.14
-      cos(2\*x),0,3.14
+      cos(2*x),0,3.14
       exp(x),0,5
-      sin(x).\*exp(-x),0,5
-      sin(2\*x)+cos(2\*x),0,3.14
-      x+2\*x.\*x+3\*x.\*x.\*x,0,5
+      sin(x).*exp(-x),0,5
+      sin(2*x)+cos(2*x),0,3.14
+      x+2*x.*x+3*x.*x.*x,0,5
 
 The above list can be loaded in to octave and plotted individually with
 the corresponding ranges using the following code.
@@ -59,8 +59,8 @@ Contents of "*getlines.m*:
         lines{i} = fscanf(infile,'%s',1);
       end
       for i=1:n_lines,
-        fields=strsplit(lines{i},\",\");
-        fstring = sprintf(\"function y=myf(x); y=%s;\",fields{1});
+        fields=strsplit(lines{i},",");
+        fstring = sprintf("function y=myf(x); y=%s;",fields{1});
         eval(fstring);
         xmin = str2num(fields{2});
         xmax = str2num(fields{3});
