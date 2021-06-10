@@ -77,7 +77,69 @@ See internal readme file.
 
 This has a number of Jupyter notebooks, mostly created during the classes and while solving homework.
 
+## Note on Sage Notebooks:
 
+Sage notebooks tend to not render properly on GitHub directly, pull/clone the repo locally to see them properly.
+
+## Descriptions of selected notebooks:
+
+### [3D Plotting using Python.ipynb](Jupyter/3D%20Plotting%20using%20Python.ipynb)
+
+A short example on using the mplot3d submodule of matplotlib to make 3D plots.
+Also, some information on different types of computing (symbolic vs numeric etc.)
+
+### [Contour Plots.ipynb](Jupyter/Contour%20Plots.ipynb)
+
+A few examples on using contour plots with some short explanations.
+
+### [Finite Difference Method.ipynb](Jupyter/Finite%20Difference%20Method.ipynb)
+
+This explains the basics of the finite difference method in simple markdown. No code is provided here.
+
+### [Introduction to SageMath.ipynb](Jupyter/Introduction%20to%20SageMath.ipynb)
+
+This is an introduction to using SageMath with some explanations in the Markdown cells. It was used while learning basic SageMath.
+
+### [MarkdownSandbox.ipynb](Jupyter/MarkdownSandbox.ipynb)
+
+An example notebook containing only markdown to learn the syntax and effectively use basic markdown. Provided by professor Phanikumar
+
+### [Multiple Integrals in SageMath.ipynb](Jupyter/Multiple%20Integrals.ipynb)
+
+An attempt at taking multiple integrals in SageMath. Useful to learn the syntax and procedure for taking a multiple integral in Sage.
+
+### [My First Notebook.ipynb](Jupyter/My%20First%20Notebook.ipynb)
+
+Explore the wonder of using a Jupyter Notebook for the first time...
+
+It might just make you cringe, or laugh, depending on how you see it :D
+
+### [Plotting Multivariable Functions.ipynb](Jupyter/Plotting%20Multivariable%20Functions.ipynb)
+
+An example of plotting multivariable functions in 3D and higher spaces in Sage.
+
+### [Random Integration, Differentiation, Area, and a little LaTeX.ipynb](Jupyter/Random%20Integration%2C%20Differentiation%2C%20Area%2C%20and%20a%20little%20LaTeX.ipynb)
+
+This introduces the use of LaTeX in Jupyter notebooks, which makes them extremely useful for scientific computing and a form of programming known as Literate Programming, which is basically having executable code and docuementation and explanations in the same file.
+
+### [Sierpinski.ipynb](Jupyter/Sierpinski.ipynb)
+
+Sierpinski Triangle generator. Try making this yourself before seeing the code for this one.
+
+### [Heavy Maths/Assignment 2 ()Taylor Expansions and Lagrange Multipliers](Jupyter/Heavy-Maths/Assignment%202%20(Taylor%20Expansions%20and%20Lagrange%20Multipliers).ipynb)
+
+### Session-x.ipynb
+
+These are notes taken during sessions. Links to each:
+
+[Session-14](Jupyter/Session-14.ipynb)
+[Session-15](Jupyter/Session-15.ipynb)
+[Session-16](Jupyter/Session-16.ipynb)
+[Session-17](Jupyter/Session-17.ipynb)
+[Session-18](Jupyter/Session-18.ipynb)
+[Session-19](Jupyter/Session-19.ipynb)
+[Session-20](Jupyter/Session-20.ipynb)
+[Session-21](Jupyter/Session-21.ipynb)
 
 # MakeHW
 
