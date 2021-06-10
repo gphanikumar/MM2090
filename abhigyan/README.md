@@ -1,7 +1,7 @@
 # MM2090 - July-November 2019
 This folder contains all of the files I had ever created during the course MM2090 that I took in the July-November 2019 semester at IITM. Feel free to try out stuff from here and use anything you need or feel will be useful.
 
-# Bash Scripts:
+# [Bash Scripts](Bash%20Scripts):
 
 This folder contains all the Scripts that were created for working with and learning Bash Scripting, along with some data files for the scripts to work on.
 
@@ -67,13 +67,13 @@ This creates an empty script at the given location and opens it in vim. Edit thi
 
 This produces the fibonacci sequence up to $1 terms.
 
-# Homework PDFs and Homeworks
+# [Homework PDFs](Homework%20PDFs) and [Homeworks](Homeworks)
 
 The Homework PDFs and Homeworks folders contain all the Homework that was submitted for each assignment given to us.
 
 See internal readme file.
 
-# Jupyter
+# [Jupyter](Jupyter)
 
 This has a number of Jupyter notebooks, mostly created during the classes and while solving homework.
 
@@ -143,11 +143,11 @@ These are notes taken during sessions. Links to each:
 [Session-20](Jupyter/Session-20.ipynb)
 [Session-21](Jupyter/Session-21.ipynb)
 
-# MakeHW
+# [MakeHW](MakeHW)
 
 Some C programs and a Makefile. Made while learning MakeFiles
 
-# Session Notes
+# [Session Notes](Session%20Notes)
 
 Contains notes provided by professor Phanikumar for each of the sessions conducted.
 Definitely worth a read, especially when in a tough spot.
