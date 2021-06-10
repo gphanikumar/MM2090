@@ -17,7 +17,7 @@ If you just run `./<awk-script-name>`, it generally won't work.
 
 ### Descriptions of some selected bash and awk scripts:
 
-#### cowsay-randomizer.sh
+#### [cowsay-randomizer.sh](Bash%20Scripts/cowsay-randomizer.sh)
 
 This is a script to randomize the `cowsay` command along with the `fortune` command to show a random cowfile saying a random fortune cookie quote.
 
