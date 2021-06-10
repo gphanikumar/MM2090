@@ -34,7 +34,7 @@ in mathematical notation is as follows:
 Contents of the file "myfunc.m"
 
       function y = myfunc(x, c) 
-      y = exp(x) .\* sin(x+c);
+      y = exp(x) .* sin(x+c);
 
 The operator "dot-star" is to ensure that when we pass an array to the
 function, then the multiplication is still the way we wanted, namely,
@@ -104,17 +104,17 @@ Contents of the file "myplotsequence.m"
       x=[1:0.1:5];
       hold off
       for c = 1:40
-      c1 = c*0.1;
-      y=myfunc(x,c1);
-      p=plot(x,y);
-      set(p,'linewidth',[2]);
-      axis([1 5 -5 5]);
-      xlabel('value of x')
-      ylabel('value of f(x)')
-      str = sprintf("f(x) at c1=%f",c1);
-      title(str)
-      str2 = sprintf("print -dpng plt-%d.png",c);
-      eval(str2);
+        c1 = c*0.1;
+        y=myfunc(x,c1);
+        p=plot(x,y);
+        set(p,'linewidth',[2]);
+        axis([1 5 -5 5]);
+        xlabel('value of x')
+        ylabel('value of f(x)')
+        str = sprintf("f(x) at c1=%f",c1);
+        title(str)
+        str2 = sprintf("print -dpng plt-%d.png",c);
+        eval(str2);
       end
 
 The above code can be executed by opening *octave* and at the prompt \>
