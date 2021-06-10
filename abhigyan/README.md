@@ -128,7 +128,7 @@ Sierpinski Triangle generator. Try making this yourself before seeing the code f
 
 ### [Heavy Maths/Assignment 2 (Taylor Expansions and Lagrange Multipliers)](Jupyter/Heavy-Maths/Assignment%202%20(Taylor%20Expansions%20and%20Lagrange%20Multipliers).ipynb)
 
-### [Differential Equations (Assignment 1).ipynb](Jupyter/Differential%20Equations%20(Assignment%201).ipynb)
+### [Heavy Maths/Differential Equations (Assignment 1).ipynb](Jupyter/Heavy%20Maths/Differential%20Equations%20(Assignment%201).ipynb)
 
 ### Session-x.ipynb
 
