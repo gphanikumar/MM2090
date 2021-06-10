@@ -4,6 +4,8 @@ A course for first year students at IIT Madras.
 
 Browse the folder for notes, presentations, example scripts and notebooks to help you learn the basic concepts behind scientific computing. If you wish to contribute by editing or adding content, please feel free to drop pull request.
 
+Look at the [resources](resources.md) page for useful links.
+
 This repository contains sessions on the following sections:
 ## Ubuntu Linux commands
  * [Session-0](lessons/Session0.md) Getting access to linux environment
@@ -73,13 +75,16 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [octave-1](lessons/octave-1.md) Introduction to Octave
  * [octave-2](lessons/octave-2.md) Working with Octave
 
-## Introduction to Parallel Computing
+## Parallel Computing
 
-
-Look at the [resources](resources.md) page for useful links.
+ * Message Passing Interface (MPI) library
 
 ## Examples and solutions
 
 Look at the contributions by [abhigyan](abhigyan/README.md) for examples and solutions that could help you learn more about the concepts of this course.
+
+## Further learning
+
+ * You should explore [further](lessons/further.md) and have fun learning.
 
 -[Gandham Phanikumar](https://mme.iitm.ac.in/gphani/)
