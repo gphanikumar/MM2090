@@ -70,6 +70,8 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [git-tut](lessons/git-tut.md) Tutorials to help with git
 
 ## Octave
+ * [octave-1](lessons/octave-1.md) Introduction to Octave
+ * [octave-2](lessons/octave-2.md) Working with Octave
 
 ## Introduction to Parallel Computing
 
