@@ -14,6 +14,12 @@ You need to have regular access to a computer with a linux operating system inst
 7. You can also consider buying a [raspberry pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and have [ubuntu](https://ubuntu.com/raspberry-pi) installed on it. Ubuntu support for ARM is pretty good. 
 8.  If you do not possess a laptop and are also unable to borrow it from a friend for this course, please consider taking one for hire.
 
+## Help on setting up dual boot
+
+Thanks to Viabhav Mahapatra, here are two useful links to help with setting up dual boot.
+ * [On itzgeek.com by Raj](https://www.itzgeek.com/post/how-to-install-ubuntu-20-04-alongside-with-windows-10-in-dual-boot/)
+ * [On towardsdatascience.com by Krupesh Raikar](https://towardsdatascience.com/how-to-dual-boot-windows-10-and-linux-ubuntu-20-04-lts-in-a-few-hassle-free-steps-f0e465c3aafd)
+
 ## Using the cloud environment 
 1. You can register yourself at [webminal](https://www.webminal.org/) and use the terminal on the web browser for free. They have some lessons for you to get familiarized with the command line environment set up along side the terminal.
 2. You can sign-in to [cocalc](https://cocalc.com/) and open a terminal session to try it out on the web browser. Check out the free period for evaluation.
