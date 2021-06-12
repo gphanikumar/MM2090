@@ -29,5 +29,5 @@
  * [Octave Tutorial](http://ais.informatik.uni-freiburg.de/teaching/ws11/robotics2/pdfs/rob2-03-octave.pdf) 2MB, 111 slides
 
 ## Online Lectures
- * [Sage course from IMSc](https://www.imsc.res.in/~amri/sagecourse/) by Prof. Amritanshu Prasad, IMSc, Chennai
+ * [Sage course](https://www.imsc.res.in/~amri/sagecourse/) by Prof. Amritanshu Prasad, IMSc, Chennai
  * [Sage course on NPTEL](https://onlinecourses.nptel.ac.in/noc21_ma29/preview) by Prof. Ajit Kumar, ICT, Mumbai
