@@ -4,7 +4,7 @@
 
 You can install the following packages to have the latex typsetting environment ready on your desktop.
 
-      sudo apt-get install texlive texlive-basic texlive-latex-recommended texlive-latex-extra
+      sudo apt-get install texlive texlive-base texlive-latex-recommended texlive-latex-extra
 
 You will also need few packages for scientific document preparation. Have these also installed and kept handy.
 
