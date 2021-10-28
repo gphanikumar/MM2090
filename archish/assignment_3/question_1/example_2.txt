@@ -1,0 +1,30 @@
+IITM-TimeTable-v2 is-a table
+IITM-TimeTable-v2 has-row Monday
+IITM-TimeTable-v2 has-row Tuesday
+IITM-TimeTable-v2 has-row Wednesday
+IITM-TimeTable-v2 has-row Thursday
+IITM-TimeTable-v2 has-row Friday
+Monday has-slot Monday-Slot-A
+Monday has-slot Monday-Slot-P/H/M
+Tuesday has-slot Tuesday-Slot-C
+Wednesday has-slot Wednesday-Slot-C
+Wednesday has-slot Wednesday-Slot-G
+Thursday has-slot Thursday-Slot-G
+Friday has-slot Friday-Slot-T/K/L
+Friday has-slot Friday-Slot-E
+Monday-Slot-A starts-at 8:00 Hrs
+Monday-Slot-A ends-at 8:59 Hrs
+Monday-Slot-P/H/M starts-at 14:00 Hrs
+Monday-Slot-P/H/M ends-at 16:59 Hrs
+Tuesday-Slot-C starts-at 9:00 Hrs
+Tuesday-Slot-C ends-at 9:59 Hrs
+Wednesday-Slot-C starts-at 8:00 Hrs
+Wednesday-Slot-C ends-at 8:59 Hrs
+Wednesday-Slot-G starts-at 17:00 Hrs
+Wednesday-Slot-G ends-at 17:59 Hrs
+Thursday-Slot-G starts-at 10:00 Hrs
+Thursday-Slot-G ends-at 10:59 Hrs
+Friday-Slot-T/K/L starts-at 14:00 Hrs
+Friday-Slot-T/K/L ends-at 16:59 Hrs
+Friday-Slot-E starts-at 17:00 Hrs
+Friday-Slot-E ends-at 17:59 Hrs

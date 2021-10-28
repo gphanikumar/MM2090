@@ -1,0 +1,111 @@
+IITM-TimeTable is-a table
+IITM-TimeTable has-row Monday
+IITM-TimeTable has-row Tuesday
+IITM-TimeTable has-row Wednesday
+IITM-TimeTable has-row Thursday
+IITM-TimeTable has-row Friday
+Monday has-slot Monday-Slot-A
+Monday has-slot Monday-Slot-B
+Monday has-slot Monday-Slot-C
+Monday has-slot Monday-Slot-D
+Monday has-slot Monday-Slot-G
+Monday has-slot Monday-Slot-P/H/M
+Monday has-slot Monday-Slot-J
+Tuesday has-slot Tuesday-Slot-B
+Tuesday has-slot Tuesday-Slot-C
+Tuesday has-slot Tuesday-Slot-D
+Tuesday has-slot Tuesday-Slot-E
+Tuesday has-slot Tuesday-Slot-A
+Tuesday has-slot Tuesday-Slot-Q/M/H
+Tuesday has-slot Tuesday-Slot-F
+Wednesday has-slot Wednesday-Slot-C
+Wednesday has-slot Wednesday-Slot-D
+Wednesday has-slot Wednesday-Slot-E
+Wednesday has-slot Wednesday-Slot-F
+Wednesday has-slot Wednesday-Slot-B
+Wednesday has-slot Wednesday-Slot-R/J/K
+Wednesday has-slot Wednesday-Slot-G
+Thursday has-slot Thursday-Slot-E
+Thursday has-slot Thursday-Slot-F
+Thursday has-slot Thursday-Slot-G
+Thursday has-slot Thursday-Slot-A
+Thursday has-slot Thursday-Slot-D
+Thursday has-slot Thursday-Slot-S/L/J
+Thursday has-slot Thursday-Slot-H
+Friday has-slot Friday-Slot-F
+Friday has-slot Friday-Slot-G
+Friday has-slot Friday-Slot-A
+Friday has-slot Friday-Slot-B
+Friday has-slot Friday-Slot-C
+Friday has-slot Friday-Slot-T/K/L
+Friday has-slot Friday-Slot-E
+Monday-Slot-A starts-at 8:00 Hrs
+Monday-Slot-A ends-at 8:59 Hrs
+Monday-Slot-B starts-at 9:00 Hrs
+Monday-Slot-B ends-at 9:59 Hrs
+Monday-Slot-C starts-at 10:00 Hrs
+Monday-Slot-C ends-at 10:59 Hrs
+Monday-Slot-D starts-at 11:00 Hrs
+Monday-Slot-D ends-at 11:59 Hrs
+Monday-Slot-G starts-at 13:00 Hrs
+Monday-Slot-G ends-at 13:59 Hrs
+Monday-Slot-P/H/M starts-at 14:00 Hrs
+Monday-Slot-P/H/M ends-at 16:59 Hrs
+Monday-Slot-J starts-at 17:00 Hrs
+Monday-Slot-J ends-at 17:59 Hrs
+Tuesday-Slot-B starts-at 8:00 Hrs
+Tuesday-Slot-B ends-at 8:59 Hrs
+Tuesday-Slot-C starts-at 9:00 Hrs
+Tuesday-Slot-C ends-at 9:59 Hrs
+Tuesday-Slot-D starts-at 10:00 Hrs
+Tuesday-Slot-D ends-at 10:59 Hrs
+Tuesday-Slot-E starts-at 11:00 Hrs
+Tuesday-Slot-E ends-at 11:59 Hrs
+Tuesday-Slot-A starts-at 13:00 Hrs
+Tuesday-Slot-A ends-at 13:59 Hrs
+Tuesday-Slot-Q/M/H starts-at 14:00 Hrs
+Tuesday-Slot-Q/M/H ends-at 16:59 Hrs
+Tuesday-Slot-F starts-at 17:00 Hrs
+Tuesday-Slot-F ends-at 17:59 Hrs
+Wednesday-Slot-C starts-at 8:00 Hrs
+Wednesday-Slot-C ends-at 8:59 Hrs
+Wednesday-Slot-D starts-at 9:00 Hrs
+Wednesday-Slot-D ends-at 9:59 Hrs
+Wednesday-Slot-E starts-at 10:00 Hrs
+Wednesday-Slot-E ends-at 10:59 Hrs
+Wednesday-Slot-F starts-at 11:00 Hrs
+Wednesday-Slot-F ends-at 11:59 Hrs
+Wednesday-Slot-B starts-at 13:00 Hrs
+Wednesday-Slot-B ends-at 13:59 Hrs
+Wednesday-Slot-R/J/K starts-at 14:00 Hrs
+Wednesday-Slot-R/J/K ends-at 16:59 Hrs
+Wednesday-Slot-G starts-at 17:00 Hrs
+Wednesday-Slot-G ends-at 17:59 Hrs
+Thursday-Slot-E starts-at 8:00 Hrs
+Thursday-Slot-E ends-at 8:59 Hrs
+Thursday-Slot-F starts-at 9:00 Hrs
+Thursday-Slot-F ends-at 9:59 Hrs
+Thursday-Slot-G starts-at 10:00 Hrs
+Thursday-Slot-G ends-at 10:59 Hrs
+Thursday-Slot-A starts-at 11:00 Hrs
+Thursday-Slot-A ends-at 11:59 Hrs
+Thursday-Slot-D starts-at 13:00 Hrs
+Thursday-Slot-D ends-at 13:59 Hrs
+Thursday-Slot-S/L/J starts-at 14:00 Hrs
+Thursday-Slot-S/L/J ends-at 16:59 Hrs
+Thursday-Slot-H starts-at 17:00 Hrs
+Thursday-Slot-H ends-at 17:59 Hrs
+Friday-Slot-F starts-at 8:00 Hrs
+Friday-Slot-F ends-at 8:59 Hrs
+Friday-Slot-G starts-at 9:00 Hrs
+Friday-Slot-G ends-at 9:59 Hrs
+Friday-Slot-A starts-at 10:00 Hrs
+Friday-Slot-A ends-at 10:59 Hrs
+Friday-Slot-B starts-at 11:00 Hrs
+Friday-Slot-B ends-at 11:59 Hrs
+Friday-Slot-C starts-at 13:00 Hrs
+Friday-Slot-C ends-at 13:59 Hrs
+Friday-Slot-T/K/L starts-at 14:00 Hrs
+Friday-Slot-T/K/L ends-at 16:59 Hrs
+Friday-Slot-E starts-at 17:00 Hrs
+Friday-Slot-E ends-at 17:59 Hrs

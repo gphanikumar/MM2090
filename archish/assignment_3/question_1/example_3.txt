@@ -1,0 +1,19 @@
+Tab-1 is-a table
+Tab-1 has-row Day-1
+Tab-1 has-row Day-2
+Tab-1 has-row Day-3
+Day-1 has-slot Slot-1
+Day-1 has-slot Slot-2
+Day-2 has-slot Slot-3
+Day-3 has-slot Slot-4
+Day-3 has-slot Slot-5
+Slot-1 starts-at 9:00 Hrs
+Slot-1 ends-at 10:59 Hrs
+Slot-2 starts-at 13:00 Hrs
+Slot-2 ends-at 14:59 Hrs
+Slot-3 starts-at 12:00 Hrs
+Slot-3 ends-at 13:59 Hrs
+Slot-4 starts-at 11:00 Hrs
+Slot-4 ends-at 12:59 Hrs
+Slot-5 starts-at 16:00 Hrs
+Slot-5 ends-at 17:59 Hrs
