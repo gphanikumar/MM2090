@@ -82,7 +82,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 
 ## Examples and solutions
 
-Look at the contributions by [abhigyan](abhigyan/README.md) for examples and solutions that could help you learn more about the concepts of this course.
+Look at the contributions by [abhigyan](abhigyan/README.md) and [archish](archish/README.md) for examples and solutions that could help you learn more about the concepts of this course.
 
 ## Further learning
 
