@@ -1,6 +1,10 @@
 # MM2090 Introduction to Scientific Computing
 # Solutions to Assignments - April June 2021
 
+### Note
+
+The problem statement along with the instructions are available as seperate README files in each folder. 
+
 ## [Assignment 1](assignment_1/)
 
  * [Problem Statements](assignment_1/README.md)
