@@ -1,5 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {section}{\numberline {2}Analysis}{3}{}%
-\contentsline {subsection}{\numberline {2.1}More analysis}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}A minor point}{4}{}%
-\contentsline {section}{\numberline {3}Conclusions}{4}{}%
