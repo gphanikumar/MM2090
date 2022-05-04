@@ -12,7 +12,8 @@ You need to have regular access to a computer with a linux operating system inst
 5.  If installation of dual boot is not possible, and your machine is Windows 10, you can get the [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Windows Subsystem for Linux) enabled. Most of the work should be possible within this shell that is basically Ubuntu Linux in console mode. As you might know, Ubuntu Shell is now an officially supported feature on Windows 10. The latest version of [WSL2](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps) supports even GUI applications. Also, have a look at the [WSLg repo](https://github.com/microsoft/wslg) for more info.
 6.  If you have a laptop but are unable to get a Linux/Unix like environment on it working, at least get OpenSSH or PuTTY installed on it. Obtain a login to any of the Linux machines in the lab with help from the teaching assistants. Login using [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) / [PuTTY](https://www.putty.org/) to that machine and try your commands.
 7. You can also consider buying a [raspberry pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and have [ubuntu](https://ubuntu.com/raspberry-pi) installed on it. Ubuntu support for ARM is pretty good. 
-8.  If you do not possess a laptop and are also unable to borrow it from a friend for this course, please consider taking one for hire.
+8. If you have an android tablet or smart phone with large enough screen, you could also try the app [termux](https://play.google.com/store/apps/details?id=com.termux) and install packages to replicate terminal environment there.
+9.  If you do not possess a laptop and are also unable to borrow it from a friend for this course, please consider taking one for hire.
 
 ## Help on setting up dual boot
 
