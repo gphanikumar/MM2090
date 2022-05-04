@@ -10,7 +10,7 @@ As part of [Online BSc in Programming and Data Science](https://onlinedegree.iit
 | 4 |	[Simple commands in linux - 2](https://www.youtube.com/watch?v=lpe6AKk5GIk) |	42.47 |
 | 5 |	[$hell variables](https://www.youtube.com/watch?v=pPRge8Yxbso) |	26.36 |
 | 6 |	[Combining commands and files](https://www.youtube.com/watch?v=Lcx9UsS7y8Y) |	31.37 |
-| 7 |	[Redirections](https://www.youtube.com/watch?v=	BBh69kH_G_Y) |	29.41 |
+| 7 |	[Redirections](https://www.youtube.com/watch?v=BBh69kH_G_Y) |	29.41 |
 | 8 |	[Shell variables - Part 1](https://www.youtube.com/watch?v=QX5XElFRpck) |	40.03 |
 | 9 |	[Shell variables - Part 2](https://www.youtube.com/watch?v=R9vnc8AdVUo) |	48.53 |
 | 10 |	[Linux process management](https://www.youtube.com/watch?v=2aThmDRvSWU) |	31.54 |
