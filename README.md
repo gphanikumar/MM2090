@@ -6,6 +6,8 @@ Browse the folder for notes, presentations, example scripts and notebooks to hel
 
 Look at the [resources](resources.md) page for useful links.
 
+Videos recorded for the course on [System Commands](https://onlinedegree.iitm.ac.in/course_pages/BSCSE2001.html) as part of [Online BSc in Programming and Data Science](https://onlinedegree.iitm.ac.in/) are linked [here](videos.md).
+
 This repository contains sessions on the following sections:
 ## Ubuntu Linux commands
  * [Session-0](lessons/Session0.md) Getting access to linux environment
@@ -82,7 +84,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 
 ## Examples and solutions
 
-Look at the contributions by [abhigyan](abhigyan/README.md) for examples and solutions that could help you learn more about the concepts of this course.
+Look at the contributions by top performing students of this course [abhigyan](abhigyan/README.md), [archish](archish/README.md) and [raghwani](raghwani/README.md) for examples and solutions that could help you learn more about the concepts of this course.
 
 ## Further learning
 
