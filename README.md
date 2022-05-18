@@ -33,7 +33,7 @@ You can download the file [RollList.csv](scripts/RollList.csv) and use it for th
  * [Session-8](lessons/Session8.md) Network ports
  * [Session-8b](lessons/Session8b.md) Programming in awk language
  * [Session-8c](lessons/Session8c.md) Programming in awk language (contd)
- * [Session-9](lessons/Session9.md) Bash scripts - linked with >25 example scripts
+ * [Session-9](lessons/Session9.md) Bash scripts - linked with >25 example [scripts](./scripts)
  * [cmdline fun](lessons/cmdline.md) Some fun with commands
  * [Session-10](lessons/Session10.md) Introduction to make
  * [Session-11](lessons/Session11.md) Working with makefile
