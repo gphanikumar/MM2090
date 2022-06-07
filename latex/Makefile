@@ -12,5 +12,8 @@ all: sample.tex erf.eps refs.bib
 	latex sample.tex
 	dvipdf sample.dvi
 # If the above steps are executed successfully, the file sample.pdf should be ready.
+#
+# make clean -> to remove temporary files from the folder
 clean:
-	rm -f sample.aux sample.bbl sample.log sample.dvi
+	rm -f sample.aux sample.bbl sample.log sample.dvi sample.blg
+# end of Makefile
