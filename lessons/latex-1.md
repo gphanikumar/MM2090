@@ -35,3 +35,19 @@ There is a nice cloud based platform to prepare latex documents. If you register
 The miktex distribution is for all platforms but for windows, its a good one.
 
  * [https://miktex.org/](https://miktex.org/)
+
+## Image conversion
+
+It is better to use vector formats (eps, ps, pdf, svg ...) than raster formats (jpg, png, bmp, tif ...) to include images. Usually we use eps figures while compiling tex documents using LaTeX and jpg figures while compiling using PDFLaTeX. To convert images across formats, following tools will be of use.
+
+  * [ImageMagick](https://imagemagick.org/) - if it is installed on your Linux machine then "man convert" should help you get started.
+  * [ImageJ](https://imagej.nih.gov/ij/download.html) - it is a java utility that helps not only in converting images but also measuring stuff on the images including metallography.
+
+## Editing tex files
+
+Once you have learnt the syntax well, you should be able to write LaTeX documents in plain text editors like vi or emacs. Until then, a syntax-aware text editor can help a lot. Here are a few suggestions.
+
+  * [TeXMaker](https://www.xm1math.net/texmaker/) is a context sensitive, syntax aware editor for tex documents. It comes with templates, quick references and a nice IDE-like appearance.
+  * [kile](https://kile.sourceforge.io/) is useful if you are using KDE as your graphical interface. 
+  * [kate](https://apps.kde.org/kate/) is a syntax-aware text editor on KDE useful also for LaTeX.
+
