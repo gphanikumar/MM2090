@@ -57,7 +57,7 @@ Add a one line description on what you have changed using the commit message
 
 You can now push the changes to the remote server after informing which branch to push to.
 
-      git push -u origin <branchname> 
+      git push origin <branchname> 
 
 Next time when you want to make changes, pull from the remote machine if any of your collaborators have changed anything in the meanwhile.
 
@@ -66,6 +66,19 @@ Next time when you want to make changes, pull from the remote machine if any of 
 Time to time, you can view the log of actions done.
 
       git log
+
+## Obtaining personal access tokens
+
+[Here](https://docs.acquia.com/pipelines/cli/github/reqs/) is a nice tutorial on how to pickup personal access tokens from the github site. The steps are as follows:
+
+  * Have your phone handy with the Authenticator App open
+  * Sign into your GitHub account on the web using two factor authentication
+  * Click on profile image on top-right
+  * Click on "Settings"
+  * Click on "Developer Settings" on left menu, bottom
+  * In the page that follows, click on the item "Personal access tokens" in the left menu
+  * Click on  "Generate new token"
+  * Provide a note for yourself, choose options and click on the "Generate token" button
 
 ## Managing pull requests
 
