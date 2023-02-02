@@ -67,7 +67,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
  * [sage-6c](notebooks/sage-6c.ipynb) Rational Numbers in sage
  * [sage-6d](notebooks/sage-6d.ipynb) Complex Numbers in sage
 
-## Introduction document preparation using LaTeX
+## Introduction to document preparation using LaTeX
  * [latex-1](lessons/latex-1.md) Getting access to LaTeX typesetting environment
  * [latex bundle](latex) A sample latex bundle is provided for you to get started
  * [latex-2](lessons/latex-2.md) Getting your content right
@@ -76,7 +76,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 
  * [git-tut](lessons/git-tut.md) Tutorials to help with git
 
-## Octave
+## Programming in Octave
  * [octave-1](lessons/octave-1.md) Introduction to Octave
  * [octave-2](lessons/octave-2.md) Working with Octave
 
