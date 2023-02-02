@@ -2,7 +2,10 @@
 
 ## Images
 
-You can preferably use eps images for latex and jpg images for pdflatex. 
+  * You can preferably use eps images for latex and jpg images for pdflatex. 
+  * If you have some images already to be insered in the latex document, convert them to requisite format using the command "convert" that comes along with the package ImageMagick. You can convert using ImageJ too.
+  * If you need to create a schematic, do it using LibreOffice Draw. Don't forget to set the page preferences to A5 size and exporting the file to eps format.
+  * An old linux tool called xfig allows for creating vector graphics images and exports them to various formats including eps.
 
 ## References
 
