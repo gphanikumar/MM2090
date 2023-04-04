@@ -47,7 +47,7 @@ documentation purpose.
 Use the command "/usr/bin/cal" to view the calendar of the current
 month. Use it with month and year as arguments to see the calendar of
 any month or year -- either in past or future. Eg., use "cal Aug 1947"
-to see the calendar of the August month of the year 1974. Check out
+to see the calendar of the August month of the year 1947. Check out
 which day of the week you were born using this command.
 
 ## ncal
