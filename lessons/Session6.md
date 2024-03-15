@@ -7,7 +7,7 @@
 Use `np` to print the `n`th line
 
       sed '5p' RollList.csv
-**Note**: The output might slightly differ from what you'd expect. To understand why, keep reading $\dagger$.
+**Note**: The output might slightly differ from what you'd expect. To understand why, keep reading $^\dagger$.
 
 
 Use of `x,yp` to print a range of lines
@@ -20,7 +20,7 @@ Use `/your_regex_here/p` to print lines that match the regular expression
       
       sed '/ME/!p' RollList.csv     *prints all the lines that do not match the regular expression*
 
-Use `-n` to supress pattern space $\dagger$
+Use `-n` to supress pattern space $^\dagger$
 
       sed -n '/ME/p' RollList.csv
 
