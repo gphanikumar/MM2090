@@ -1,24 +1,31 @@
 # Regex applications
 
+**Note:** All these commands follow GNU sed's standard
+
 ## Use of sed for stream editing of text
 
-Use of -n to supress lines that do not match
+Use `np` to print the `n`th line
 
-      sed ',Ap' RollList.csv
+      sed '5p' RollList.csv
+**Note**: The output might be slightly different from what you'd expect. To understand why, check out *pattern space* below.
 
-      sed -n ',Ap' RollList.csv
+Use of `x,yp` to print a range of lines
 
-Use of regex in sed
+      sed '2,9p' RollList.csv
 
-      sed 's,A,ap' RollList.csv
+Use `/your_regex_here/p` to print lines that match the regular expression
 
-      sed -n 's,A,ap' RollList.csv
+      sed '/ME/p' RollList.csv
+      
+      sed '/ME/!p' RollList.csv     *prints all the lines that do not match the regular expression*
+
+Use `-n` to supress pattern space
+
+      sed -n '/ME/p' RollList.csv
 
 Strip the roll number
 
       sed -n 's/....B...,//p' RollList.csv
-
-      sed -n 's.\*,//p' RollList.csv
 
 Strip the name
 
@@ -32,7 +39,7 @@ Use of sed to edit a stream of lines
 
       cat RollList.csv | sed -e 's/,.*//g' > r.txt
 
-Use of brackets to store fields
+Use of brackets to store fields (capturing groups)
 
       cat RollList.csv | sed -e 's/^\(.*\),\(.*\)$/\2,\1/g'
 
