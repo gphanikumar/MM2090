@@ -7,7 +7,7 @@
   * [Github Guides](https://guides.github.com/) website has tutorials you can use to learn about github step by step.
   * Download the [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) and have it handy.
   * [git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot Product Team
-  * A [schematic](git-schematic.pdf) to illustrate the processes - adapted from Jakub Narebski's book "Matering Git".
+  * A [schematic](../files/git-schematic.pdf) to illustrate the processes - adapted from Jakub Narebski's book "Matering Git".
 
 ## Installing git
 
