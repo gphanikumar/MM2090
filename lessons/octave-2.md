@@ -1,4 +1,4 @@
-# More about Octave
+# Working with images
 
 ## Loading data into an array:
 
@@ -12,118 +12,69 @@ One can only load numeric data as arrays into array objects in octave.
 The numbers can be integers like "*21*" as well as real numbers like
 "*1.023e-21*" for example.
 
+## Loading an image
+
 Images can be loaded as arrays directly. The following lines read an
-image called "*test.png*" and display the same. Try this out and compare
-the size of the array with the output of\
-"*file test.png*" command. Gray scale images are 1 layer arrays, rgb
+image called "*test.jpg*" and display the same. Try this out and compare
+the size of the array with the output of 
+"*file test.jpg*" command. Gray scale images are 1 layer arrays, rgb
 images are 3 layer arrays -- one each for red, green and blue channels
 and cmyk images are 4 layer arrays -- one each for cyan, magenta, yellow
 and black channels. You can take slice of the array or a specific layer,
 copy to another array and perform operations on them just like on any
 array.
 
-      T = imread("test.png");
+```
+      T = imread("test.jpg");
       imshow(T)
+```
 
-One cannot do that with array of strings easily. The procedure is a
-little longer. We take up a task as described below to learn about that.
+## Viewing the histogram of the image
 
-## Loading a list of functions from a file.
+The hist command takes a 1D array of numbers to show you the histogram. We can use reshape to convert the 2D array of pixel data into a 1D array. We do it on one of the three layers (red, green and blue channels) of the image.
 
-The task we have is as follows. A file called "*f.txt*" has lines that
-contain definition of a function with *x* as variable, the range of
-values of x over which we need to plot the function and visualize. The
-function definition, xmin and xmax are separated using a comma. For our
-convenience, the function definitions are given in a syntax that is
-compatible with octave or Matlab.
+```
+    r = T(:,:,1);
+    rflat = resize(r,size(r,1)*size(r,2), 1);
+    hist(rflat)
+```
 
-Contents of the file "*f.txt*":
+## Converting the pixel values to perform numerical operations
 
-      sin(x),0,3.14
-      cos(2*x),0,3.14
-      exp(x),0,5
-      sin(x).*exp(-x),0,5
-      sin(2*x)+cos(2*x),0,3.14
-      x+2*x.*x+3*x.*x.*x,0,5
+We can use cast function to convert numbers across different representations. Pixels are usually in uint8 which limits the values to be unsigned integers between 0 and 255 only. Values lower than 0 will get represented as 0 and values higher than 255 will be capped at 255 itself.
 
-The above list can be loaded in to octave and plotted individually with
-the corresponding ranges using the following code.
+```
+rd = cast(r,'double');
 
-Contents of "*getlines.m*:
+```
 
-      infile = fopen("f.txt");
-      n_lines = fskipl(infile, Inf);
-      frewind(infile);
-      lines=cell(n_lines,1);
-      for i=1:n_lines,
-        lines{i} = fscanf(infile,'%s',1);
-      end
-      for i=1:n_lines,
-        fields=strsplit(lines{i},",");
-        fstring = sprintf("function y=myf(x); y=%s;",fields{1});
-        eval(fstring);
-        xmin = str2num(fields{2});
-        xmax = str2num(fields{3});
-        delta = (xmax-xmin)/10.0;
-        x=[xmin:delta:xmax];
-        y=myf(x);
-        figure(i)
-        p = plot(x,y)
-        set(p,'linewidth',[2]);
-        xlabel('value of x');
-        ylabel('f(x)');
-        tstr = sprintf("f(x)=%s",fields{1});
-        title(tstr);
-        fstr = sprintf("print -dpng f-%d.png",i);
-        eval(fstr);
-      end
+## Histogram operations
 
-Concepts that we learn from the above code are as follows:
+Brightness increase of an image is basically adding a number to the pixel array. You can view the image and see the effect.
 
- * File handle returned by calling *fopen()* is similar to file pointer in C language.
- * The function *fskipl()* gives the number of lines in the file
-    pointed by the handle. While reading the lines, the file pointer is
-    keeps traversing from the beginning of the file and at the end it
-    points to the end of the file.
- *  The function *frewind()* brings the file pointer back to the
-    beginning of the file.
- *  The function *cell()* creates an empty array to load the strings we
-    are planning to read from the file.
- *  The function *fscanf()* is similar to its counterpart in C language
-    -- it reads a string from the file and returns the same.
- *  The function *strsplit()* uses the field separator provided and
-    splits the array of characters into separate strings in a list. The
-    number of items in this list equals the number of fields separated
-    by comma in each line read.
- *  The function *sprintf()* has the same role as in C language. By
-    creating a string that contains the definition of a function, we aim
-    to pass it on to "*eval*" to evaluate it and create a function
-    definition *on the fly*.
- *  The function *str2num()* converts a string to a number. Visually, a
-    string of characters may look like a number but the internal
-    representation (aka type[^1]) could be character and could be
-    incompatible with numeric functions. This function str2num() helps
-    convert strings to numbers to pass on to numeric functions. If the
-    string does not contain a number, it will return a null array.
- *  In the above code, we choose to plot the function using *10*
-    intervals. Thus we create an array *x* that has 11 points by
-    dividing the interval *xmin* to *xmax* with *10*.
- *  The name of the function created *on the fly* is *myf()*. Thus we
-    use it for all the lines to evaluate the function and store the
-    output in the array *y*.
- *  We can then *plot* the functions, increase the *linewidth* to make
-    the plot thicker, set the labels for x-axis and y-axis and make the
-    *title* more useful by using a string that contains the function
-    definition.
- *  We can save the plots using names that are created dynamically using
-    *sprintf()* to create the print command the using* eval *to execute
-    it..
+```
+rdbrighter = rd+50;
+imshow(cast(rdbrighter,'uint8'))
 
-Comment lines in the above code using *% *character at the beginning of
-the line, delete the semicolon *;* at the end of lines that you want to
-inspect.
+```
+You can confirm that this addition shifts the histogram of the image towards right and also modifies the distribution of pixel values. Thus, such histogram operations change the image data.
 
-[^1]: The so called "type safety" is a big deal in programming
-    languages. Converting one type to another type may appear to be a
-    pain but actually it helps a lot when doing serious computing by
-    avoiding errors due to inappropriate conversions.
+## Kernel operations
+
+Consider a 3x3 array that we call as a kernel with the following values.
+```
+k=(1.0/9.0)*[1 1 1; 1 1 1; 1 1 1];
+```
+A kernel operation is defined as a summation of element-by-element product of kernal with the immediate neighborhood of every pixel in the image.
+$$ Tnew(i,j) = \sum_{p=1}^{p=3}{\sum_{q=1}^{q=3}{T(i+p-2,j+q-2)*k(p,q)}} $$
+
+We can achieve this in a single line in octave as follows:
+```
+for i=2:size(r,1)-1
+  for j=2:size(r,2)-1
+    rnew(i,j)=sum(sum(k.*r(i-1:i+1,j-1:j+1)));
+  end
+end
+```
+This kernel would blur the image slightly as you can also confirm from the imshow output.
+

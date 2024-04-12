@@ -78,7 +78,8 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 
 ## Programming in Octave
  * [octave-1](lessons/octave-1.md) Introduction to Octave
- * [octave-2](lessons/octave-2.md) Working with Octave
+ * [octave-2](lessons/octave-2.md) Working with Images
+ * [octave-3](lessons/octave-3.md) Working with Strings
 
 ## Parallel Computing
 
